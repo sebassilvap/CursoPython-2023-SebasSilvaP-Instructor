@@ -17,13 +17,13 @@ print(num_1 / num_2)
 print(num_1 ** num_2)
 print(num_1 % num_2)
 
-#? 3) Asignando valor de una variable a una nueva variable
+#? 2) Asignando valor de una variable a una nueva variable
 num_3 = num_1
 print(num_1, num_2, num_3)
 num_3 = num_2
 print(num_1, num_2, num_3)
 
-#? 4) Operaciones con variables
+#? 3) Operaciones con variables
 print( num_1*num_2 + num_1/num_2 + 100 )
 
 

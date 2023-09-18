@@ -56,7 +56,7 @@ var_1 = 'hola'
 #print( int(var_1) )
 #print( float(var_1) )
 
-## EJEMPLO - ValueError - 3:
+## EJEMPLO - ValueError - 2:
 # - un valor None no puede ser convertido a número
 # esto nos da un TypeError
 
