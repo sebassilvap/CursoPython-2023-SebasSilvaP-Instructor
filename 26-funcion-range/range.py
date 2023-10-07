@@ -2,7 +2,7 @@
 # Función Interna range
 
 # - para crear una secuencia de números
-#* range(start, stop, end)
+#* range(start, end, step)
 
 # - start: parámetro opcional, 0 por default, establece inicio (inclusivo)
 # - end: parámetro obligatorio, establece final (exclusivo)
@@ -30,6 +30,7 @@ None Type:	     |    NoneType(OK)
 
 #? 1) Creación Básica de Rangos
 print('\n1) Creación Básica de Rangos\n')
+# - range(start, end, step)
 
 # rango de 0 a 9
 rango_0_9 = range(10) # recordar el end es exclusivo!
@@ -86,3 +87,39 @@ print()
 for i in range(0,10):
     print(i)
 
+#! IMPORTANTE
+# - el range nos brinda una manera útil de iterar
+# - un range existe como definición
+# - ocupa memoria al momento que lo utilizamos en bucle
+# - o cuando le hacemos casting a una lista
+# - pero como definición no ocupa espacio
+
+
+#? 4) Indexing, Slicing & len en range
+print('\n4) Indexing & Slicing en range')
+# - de esta manera podemos también
+# - acceder a los elementos creados en la definición de un range
+
+rango1a10 = range(1,11)
+print(rango1a10)
+
+print('\nIndexing en range:')
+
+print( 'rango1a10[0] =' , rango1a10[0] )
+print( 'rango1a10[1] =' , rango1a10[1] )
+print( 'rango1a10[2] =' , rango1a10[2] )
+print( 'rango1a10[3] =' , rango1a10[3] )
+
+print('\nSlicing en range:')
+# - recordar que en el slicing
+# - start, end, step
+# - end => exclusivo
+print( 'rango1a10[4:8] =', rango1a10[4:8], '|', list(rango1a10[4:8]) )
+print( 'rango1a10[:4] =', rango1a10[:4], '|', list(rango1a10[:4]) )
+print( 'rango1a10[4:] =', rango1a10[4:], '|', list(rango1a10[4:]) )
+print( 'rango1a10[2:8:2] =', rango1a10[2:8:2], '|', list(rango1a10[2:8:2]) )
+
+print('\nlen() en range:')
+rango1_100 = range(1,101)
+print(rango1_100)
+print( len(rango1_100) )
