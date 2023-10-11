@@ -80,8 +80,18 @@ print( len(string) )
 print( len(lista) )
 
 
-#? 4) Concatenación
-print('\n4) Concatenación')
+#? 4) in + Listas
+print('\n4) in + Listas')
+# - una manera de averiguar si un elemento está en una lista
+lista = [10, True, 'hola', -5.5]
+
+print( 20 in lista )
+print( False in lista )
+print( 'hola' in lista )
+
+
+#? 5) Concatenación
+print('\n5) Concatenación')
 # - al igual que strings
 # - une una lista con otra
 
@@ -99,8 +109,8 @@ print(resultado_1)
 print(resultado_2)
 
 
-#? 5) Operador * en listas
-print('\n5) Operador * en listas')
+#? 6) Operador * en listas
+print('\n6) Operador * en listas')
 # - repite el número de veces indicado
 
 numeros = [100,200,300]
