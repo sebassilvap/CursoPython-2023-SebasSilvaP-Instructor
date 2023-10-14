@@ -1,9 +1,10 @@
 # ====================================
 # Concatenación y Producto en Tuplas
 
-# - concatenación => +
-# - producto => *
+# *    concatenación => +
+# *    producto => *
 # ====================================
+
 
 #? 1) Concatenación en Tuplas => +
 print('\n1) Concatenación en Tuplas => +')
@@ -16,6 +17,7 @@ tupla_resultado = tupla_1 + tupla_2
 print(tupla_1, len(tupla_1))
 print(tupla_2, len(tupla_2))
 print(tupla_resultado, len(tupla_resultado))
+
 
 
 #? 2) Producto en Tuplas => *

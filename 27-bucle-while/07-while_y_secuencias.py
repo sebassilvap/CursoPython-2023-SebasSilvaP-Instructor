@@ -8,8 +8,9 @@
 # - por el momento hemos visto 3 secuencias: string, lista, range
 # ===============================================================================
 
+
 #? 1) while iterando string
-print('\n1) while iterando string\n')
+print('\n1) while iterando string')
 
 cadena = 'python'
 #         012345
@@ -50,8 +51,9 @@ while index <= len(cadena):
 #! IndexError: string index out of range
 
 
+
 #? 2) while iterando listas
-print('\n2) while iterando listas\n')
+print('\n2) while iterando listas')
 
 frutas = ['manzana','piña','durazno','uvas','banana']
 #             0        1       2       3       4
@@ -89,8 +91,9 @@ while index <= len(frutas):
 #! IndexError: list index out of range
 
 
+
 #? 3) while iterando range
-print('\n3) while iterando range\n')
+print('\n3) while iterando range')
 
 # => recordar rango 
 rango_1_5 = range(1,6)

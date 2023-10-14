@@ -6,6 +6,7 @@
 # - Las listas en 2D pueden simular a las matrices numéricas
 # ============================================================
 
+
 #? 1) Recordar: Listas en Python pueden todo tipo de elementos
 print('\n1) Recordar: Listas en Python pueden todo tipo de elementos')
 
@@ -29,10 +30,11 @@ print( lista[4][1] , type(lista[4][1]) )
 print( lista[4][2] , type(lista[4][2]) )
 
 
+
 #? 2) Listas en 2D => Simulan Matrices Numéricas
 print('\n2) Listas en 2D => Simulan Matrices Numéricas')
 
-# ej:
+# EJ:
 '''
 1   2   3
 4   5   6

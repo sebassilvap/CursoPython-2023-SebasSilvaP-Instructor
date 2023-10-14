@@ -11,42 +11,52 @@
 # - y el índice -1 se refiere a la última posición
 # ===========================================================================
 
+
 #? 1) Recorrer string con índices POSITIVOS
+print('\n1) Recorrer string con índices POSITIVOS')
 
-l   =  'juan'
-# (+)   0123
-# (-)   4321
+var   =  'juan'
+#(+)      0123
+#(-)      4321
 
-print(l)
+print(var)
 
-print('(1) Índices (+)\n-----------')
-print(l[0])
-print(l[1])
-print(l[2])
-print(l[3])
+print()
+
+print(var[0])
+print(var[1])
+print(var[2])
+print(var[3])
+
+
 
 #? 2) Recorrer string con índices NEGATIVOS
+print('\n2) Recorrer string con índices NEGATIVOS')
 
-print('\n(2) Índices (-)\n-----------')
-print(l[-1])
-print(l[-2])
-print(l[-3])
-print(l[-4])
+print(var[-1])
+print(var[-2])
+print(var[-3])
+print(var[-4])
+
+
 
 #? 3) Utilizando cada índice
+print('\n3) Utilizando cada índice')
 
-print('\n(3) Utilizando cada índice')
-print( l[0] + l[1] + l[2] + l[3] )
-print( l[1] + l[3] + l[0] + l[2] )
-print( l[1] + l[1] + l[2] + l[2] + l[-3] )
+print( var[0] + var[1] + var[2] + var[3] )
+print( var[1] + var[3] + var[0] + var[2] )
+print( var[1] + var[1] + var[2] + var[2] + var[-3] )
 
-print( l , type(l) )
-print( l[0] , type(l[0]) )
-print( l[1] , type(l[1]) )
-print( l[2] , type(l[2]) )
-print( l[3] , type(l[3]) )
+print( var , type(var) )
+print( var[0] , type(var[0]) )
+print( var[1] , type(var[1]) )
+print( var[2] , type(var[2]) )
+print( var[3] , type(var[3]) )
+
+
 
 #? 4) Intentando acceder a un string que no existe
+print('\n4) Intentando acceder a un string que no existe')
 # - Index Error => cuando intento acceder a un índice fuera de los límites
 
 #print( l[4] ) #! Index Error

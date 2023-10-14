@@ -7,7 +7,8 @@
 # ====================================================
 
 #? 1) Explicación básica
-print('\n1) Explicación básica\n')
+print('\n1) Explicación básica')
+
 while False:
     print('nunca entramos al while')
 else:
@@ -17,8 +18,9 @@ else:
 # => al menos 1 vez, así el while nunca se ejecute
 
 
+
 #? 2) Ejemplo contador
-print('\n2) Ejemplo contador\n')
+print('\n2) Ejemplo contador')
 
 contador = 5
 

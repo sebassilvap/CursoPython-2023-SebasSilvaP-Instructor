@@ -43,14 +43,15 @@ None Type:	     |    NoneType
 # ===========================================================================================================
 
 #? 1) type()
+print('1) type()')
+print()
 # - para averiguar el tipo de dato
 # - función interna de python / built-in function
 # - función interna como por ejemplo: print()
 # - nos va a salir una palabrita "class" => no prestar atención por el momento
 # - hacer de cuenta que nos dice el tipo / ¿qué tipo de dato es?
 #! RECORDAR: tema funciones & clases lo veremos luego
-print()
-print('-------- 1) type() --------')
+
 
 nombre = 'Sebas'
 print(nombre)
@@ -61,17 +62,20 @@ print(type(nombre))
 print(nombre, type(nombre))
 
 
+
 #? 2) string - str
+print('2) string - str')
+print()
 # - string / cadena de texto / serie, cadena de caracteres
 # - se definen con:
+
 #   #  A) Con comilla simple => ''
 #   #  B) Con comilla doble   => ""
 #   #  C) Con 6 comillas dobles o simples => para textos largos (lo usamos para comentarios multilínea)
 
 # - puede ser 1 o más caracteres
 # - (en otros lenguajes cuando solo es uno se tiene el tipo char)
-print()
-print('-------- 2) string - str --------')
+
 
 string_1 = 'hola mundo'
 string_2 = '   hola mundo   '
@@ -110,14 +114,16 @@ print( string_10,  type(string_10) )
 print( string_11,  type(string_11) )
 
 
+
 #? 3) int
+print('3) int')
+print()
 # - int viene del inglés INTEGER / número entero (sin decimales)
 # - números positivos
 # - números negativos
 # - números CERO
 # - SIN DECIMALES
-print()
-print('-------- 3) int --------')
+
 
 entero_1 = 20
 entero_2 = -2
@@ -130,13 +136,15 @@ print( entero_3 , type(entero_3) )
 print( entero_4 , type(entero_4) )
 
 
+
 #? 4) float
+print('4) float')
+print()
 # - float => punto flotante / número decimal
 # - números decimales positivos
 # - números decimales negativos
 # - CERO decimal => 0.0
-print()
-print('-------- 4) float --------')
+
 
 decimal_1 = 10.5
 decimal_2 = 5.888888888888888888888
@@ -157,14 +165,16 @@ print( decimal_7 , type(decimal_7) )
 print( decimal_8 , type(decimal_8) )
 
 
+
 #? 5) bool
+print('5) bool')
+print()
 # - bool => del inglés BOOLEAN
 # - valor booleano => Verdadero o Falso
 # - Los valores en inglés con la primera letra en mayúscula
 ##  => True
 ##  => False
-print()
-print('-------- 5) bool --------')
+
 
 boolean_verdadero = True
 boolean_falso = False
@@ -172,15 +182,18 @@ boolean_falso = False
 print( boolean_verdadero, type(boolean_verdadero) )
 print( boolean_falso, type(boolean_falso) )
 
+
+
 #? 6) None
+print('6) None')
+print()
 # - None => nada
 # - es muy útil para SIMULAR la creación de una variable "sin asignación"
 # - porque a la final le asignamos el valor None
 # - para declarar / crear una variable y ponerle un valor luego
 # - cambiar el valor a la variable => REASIGNAR VALOR DE VARIABLE
 #!  REASIGNAR VALOR DE VARIABLE => veremos a continuación
-print()
-print('-------- 6) None --------')
+
 
 variable = None
 print( variable, type(variable) )
@@ -192,9 +205,3 @@ variable = -55.88
 print( variable, type(variable) )
 variable = True
 print( variable, type(variable) )
-
-
-
-
-
-

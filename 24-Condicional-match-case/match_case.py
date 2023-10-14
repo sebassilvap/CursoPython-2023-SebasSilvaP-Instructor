@@ -10,6 +10,7 @@
 # => en este caso no se necesita poner 'break' al final de cada case
 # ===============================================================================
 
+
 print('''opción 1 - ATAQUE
 opción 2 - DEFENSA
 opción 3 - CURAR COMPAÑEROS
@@ -21,6 +22,10 @@ print('**************************************')
 player_option = input('Player 1, ingrese opción de juego (1-6): ')
 
 print()
+
+# --------------------------
+# => Utilizando match-case
+# --------------------------
 
 match player_option:
     case '1':
@@ -39,8 +44,10 @@ match player_option:
         print('ERROR - opción incorrecta')
 # end match-case
         
-        
-## Utilizando if-elif-else
+
+# ---------------------------
+# => Utilizando if-elif-else
+# ---------------------------
 print('\nUtilizando if-elif-else\n')
 
 if player_option == '1':
@@ -57,7 +64,10 @@ elif player_option == '6':
     print('opción 6 - SALIR DEL JUEGO')
 else:
     print('ERROR - opción incorrecta')
+# end if
 
+# ----------------------------------------------------------
 # - en caso de no contar con una versión de python >= 3.10
 # - esta sería la manera de simular un match-case
 # - usando if-elif-else
+# ----------------------------------------------------------

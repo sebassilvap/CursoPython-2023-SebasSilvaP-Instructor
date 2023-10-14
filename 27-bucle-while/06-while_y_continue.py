@@ -6,7 +6,8 @@
 # =======================================================
 
 
-#? ejercicio de aplicación
+#? 1) Ejercicio de aplicación
+print('\n1) Ejercicio de aplicación')
 # - contar del 1 al 10
 # - saltarse las iteraciones 3 y 8
 

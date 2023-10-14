@@ -8,6 +8,7 @@
 # =================================================
 
 #? 1) función len en strings
+print('\n1) función len en strings')
 # - devuelve la longitud (número de caracteres) de un string
 
 string_1 = 'hola'
@@ -17,7 +18,10 @@ print( len(string_1) )
 print( len(string_2) )
 
 
+
 #? 2) len() => devuelve un valor entero
+print('\n2) len() => devuelve un valor entero')
+
 len_1 = len(string_1)
 len_2 = len(string_2)
 

@@ -37,6 +37,7 @@ print( set_2, len(set_2) )
 # - la solución era con .copy()
 
 
+
 #? 2) Solución al problema utilizando .copy()
 print('\n2) Solución al problema utilizando .copy()')
 

@@ -5,12 +5,13 @@
 # - de elementos mutables
 # - y elementos inmutables
 
-#* Mutable   => que no se puede modificar / cambiar
-#* Inmutable => que se pueden modificar
+# *     Mutable   => que no se puede modificar / cambiar
+# *     Inmutable => que se pueden modificar
 
 # - En Python hay algunos elementos que cumplen esta característica
 # - Veremos solo algunos ejemplos básicos para entender el concepto
 # ==================================================================
+
 
 #? 1) Listas - Elementos Mutables
 print('\n1) Listas - Elementos Mutables')
@@ -21,6 +22,7 @@ print(lista_letras)
 # => con acceso a index, yo puedo modificar los elementos
 lista_letras[1] = 'ZZZ'
 print(lista_letras)
+
 
 
 #? 2) String - Elemento Inmutable

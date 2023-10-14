@@ -16,12 +16,12 @@
 
 # ===============================================================
 
+
 #? 1) break => interrumpir la ejecución del bucle y seguir ejecutando el código
+print('\n1) break => interrumpir la ejecución del bucle y seguir ejecutando el código')
 # - si utilizamos else en while o for
 # - si aplicamos un break
 # - el else no se ejecuta
-
-print('\n1) break => interrumpir la ejecución del bucle y seguir ejecutando el código')
 
 print('línea de código # 1')
 print('línea de código # 2')
@@ -48,9 +48,10 @@ print('Línea de código # 5')
 print('Línea de código # 6')
 
 
-#? 2) break => ejemplo con for
 
+#? 2) break => ejemplo con for
 print('\n2) break => ejemplo con for')
+
 
 print('Ejecutando Instrucción # 1')
 print('Ejecutando Instrucción # 2')
@@ -71,4 +72,3 @@ else:
 print('Ejecutando Instrucción # 4')
 print('Ejecutando Instrucción # 5')
 print('Ejecutando Instrucción # 6')
-    

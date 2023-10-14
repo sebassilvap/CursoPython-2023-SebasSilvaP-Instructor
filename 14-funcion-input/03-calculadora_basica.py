@@ -1,4 +1,6 @@
 # ===========================================================
+# Ejercicio
+
 # Calculadora Básica en Python con input()
 
 # - Realizar una calculadora básica con lo aprendido
@@ -7,6 +9,7 @@
 # - Efectuar las operaciones aritméticas básicas aprendida
 # - Mostrar los resultados al usuario utilizando print
 # ===========================================================
+
 
 print('**** Calculadora Básica realizada en Python ****')
 n1 = float( input('Ingrese un PRIMER número : ') )

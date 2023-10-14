@@ -9,6 +9,7 @@
 # - en las funciones => desde dentro hacia afuera
 # ===================================================
 
+
 #? 1) Sin usar function-chaining
 print('\n1) Sin usar function-chaining\n')
 
@@ -23,6 +24,7 @@ print(numero) # 4 - imprimir resultado
 # => 4 líneas de código para hacer esto
 
 
+
 #? 2) CON function-chaining
 print('\n2) CON function-chaining\n')
 
@@ -33,7 +35,9 @@ print( round(abs(float(input('Ingrese un Número: ')))) )
 # => 1 línea de código para realizar todo esto
 
 
+
 #? 3) Buenas Prácticas de Programación
+print('\n3) Buenas Prácticas de Programación')
 # - el código debe ser legible
 # - legible para el programador y cualquiera que lo lea
 # - un excesivo uso de funciones encadenadas hace al código difícil de leer

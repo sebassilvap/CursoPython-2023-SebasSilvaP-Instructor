@@ -7,6 +7,7 @@
 # ==================================================================
 
 #? 1) Casting entre tipos básicos
+print('\n1) Casting entre tipos básicos')
 
 var_1 = '25' # string numérico!
 var_2 = 41
@@ -45,7 +46,9 @@ print( var_7 , '=>' , var_7_to_bool , '\t|' , type(var_7_to_bool) )
 print( var_8 , '=>' , var_8_to_bool , '\t|' , type(var_8_to_bool) )
 
 
+
 #? 2) Si el casting no tiene sentido nos va a dar un error
+print('\n2) Si el casting no tiene sentido nos va a dar un error')
 #! ValueError ó TypeError
 
 ## EJEMPLO - ValueError - 1:
@@ -66,7 +69,10 @@ print( var_1 , type(var_1) )
 #print( float(var_1) )
 
 
+
 #? 3) Todo puede ser convertible a string
+print('\n3) Todo puede ser convertible a string')
+
 var_1 = 25
 var_2 = -6.33
 var_3 = True

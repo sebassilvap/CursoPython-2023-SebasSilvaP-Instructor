@@ -22,6 +22,7 @@ expression_4 = ' 2 */3 + 2'
 #print( eval(expression_4) ) #! SyntaxError: invalid syntax
 
 
+
 #? 2) Todas las reglas aritméticas se aplican
 print('\n2) Todas las reglas aritméticas se aplican')
 

@@ -11,6 +11,7 @@ def print_info(n, e, nota): # PARÁMETROS DE LA FUNCIÓN DEFINIDA
     print( 'Su nota final es =', nota )
 # end def
 
+
 #? Invocando la Función Definida
 nombre = 'Sebas'
 edad = 36

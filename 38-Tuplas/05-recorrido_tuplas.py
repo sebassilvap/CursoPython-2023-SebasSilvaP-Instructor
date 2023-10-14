@@ -4,11 +4,11 @@
 # - los mismos fundamentos que con listas
 # ==========================================
 
-
 # ----------------------------------------------
 # EJ:
 tupla = ('A', 'B', -100, 500, True, -8.8, None)
 # ----------------------------------------------
+
 
 #? 1) Recorrido con for
 print('\n1) Recorrido con for')
@@ -16,6 +16,7 @@ print('\n1) Recorrido con for')
 for elemento in tupla:
     print(elemento)
 # end for
+
 
 
 #? 2) for + contador externo
@@ -29,12 +30,14 @@ for elemento in tupla:
 # end for
 
 
+
 #? 3) for + enumerate
 print('\n3) for + enumerate')
 
 for index, elemento in enumerate(tupla):
     print('Elemento Index #', index, '=', elemento)
 # end for
+
 
 
 #? 4) Recorrido con while
@@ -46,4 +49,3 @@ while index < len(tupla):
     print(tupla[index])
     index += 1
 # end while
-

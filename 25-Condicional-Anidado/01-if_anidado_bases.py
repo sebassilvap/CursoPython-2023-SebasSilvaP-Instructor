@@ -4,7 +4,8 @@
 # - es básicamente un if dentro de un if
 # ========================================
 
-#? Ejemplo
+#? 1) Ejemplo de Condicional Anidado
+print('\n1) Ejemplo de Condicional Anidado')
 # - Análisis de un número
 
 #numero = 8

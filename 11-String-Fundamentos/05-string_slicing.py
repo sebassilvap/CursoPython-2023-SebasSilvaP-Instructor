@@ -5,13 +5,14 @@
 # - substrings
 # - a partir de los índices del string original
 
-#* string[ inicio : final ]
+#*   string[ inicio : final ]
 # => inicio - incluyente
 # => final  - excluyente
 # =============================================================
 
 
 #? 1) Slicing con índices positivos
+print('\n1) Slicing con índices positivos')
 
 palabra = 'programa'
 #(+)       01234567
@@ -29,7 +30,10 @@ print()
 print( palabra[-1:3] ) # no funciona de esta manera
 print('hola')
 
+
+
 #? 2) Slicing con índices negativos
+print('\n2) Slicing con índices negativos')
 # - Recordar que aunque sea índice negativo
 # - El 'END' => sigue siendo exclusivo
 
@@ -40,7 +44,10 @@ print( palabra[-5:-1] ) # el último caracter no aparece
 print( palabra[-5:0] )  # no funciona de esta manera
 print( palabra[-5:] )   # esta sería la manera correcta
 
+
+
 #? 3) El Slicing no tiene Index Error
+print('\n3) El Slicing no tiene Index Error')
 
 palabra = 'Python'
 #(+)       012345
@@ -57,7 +64,11 @@ print( palabra[3:6] )
 print( palabra[3:100] )  # índice 100 no existe, pero no da index error en el slicing
 print( palabra[-100:3] ) # igual si lo hago con -100
 
+
+
 #? 4) Pequeño adelanto => casting de variables | casting a número entero
+print('\n4) Pequeño adelanto => casting de variables | casting a número entero')
+
 num_1 = 4.2
 num_2 = 4.5
 num_3 = 4.9
@@ -88,33 +99,39 @@ cadena = 'hola'
 print(cadena, len(cadena))
 
 
+
 #? 4) Dividir cualquier palabra a la mitad => slicing + len()
+print('\n4) Dividir cualquier palabra a la mitad => slicing + len()')
 
-palabra_1 = 'programa'
-#(+)         01234567
+palabra = 'programa'
+#(+)       01234567
 
-palabra_2 = 'sol'
-#(+)         012
+#palabra = 'sol'
+
+#palabra = 'contextualización'
+
+print( 'len(palabra) =', len(palabra) )
 
 
-print( 'len(palabra_1) =', len(palabra_1) )
-print( 'len(palabra_2) =', len(palabra_2) )
+print( '\nDividiendo palabra con len()' )
 
-print( 'Dividiendo palabra_1 con len()' )
-final_primera_mitad = len(palabra_1) / 2
-#palabra_1_primera_mitad = palabra_1[0:final_primera_mitad] #! ERROR => slicing siempre con enteros
-print(final_primera_mitad) # resultado de una división nos da SIEMPRE un flotante
-print( int(final_primera_mitad) )
+final_1era_mitad = len(palabra) / 2
+#palabra_1_primera_mitad = palabra[0:final_1era_mitad] #! ERROR => slicing siempre con enteros
 
-palabra_1_primera_mitad = palabra_1[ 0 : int(final_primera_mitad) ]
-print(palabra_1_primera_mitad)
+
+print(final_1era_mitad) # resultado de una división nos da SIEMPRE un flotante
+print( int(final_1era_mitad) )
+
+primera_mitad = palabra[  : int(final_1era_mitad) ]
+print(primera_mitad)
+
+segunda_mitad = palabra[ int(final_1era_mitad) : ]
+print(segunda_mitad)
 
 # ==> pero en lugar de crear variables podemos poner esto directamente !!
 
-print( palabra_1[ : int(len(palabra_1)/2)], '|', palabra_1[int(len(palabra_1)/2) : ] )
-
-print( 'Dividiendo palabra_2 con len()' )
-print( palabra_2[ : int(len(palabra_2)/2)], '|', palabra_2[int(len(palabra_2)/2) : ] )
+print( '1era Mitad =' , palabra[ : int(final_1era_mitad)] )
+print( '2da  Mitad =' , palabra[ int(final_1era_mitad) : ] )
 
 # - obviamente la división de una palabra funciona al 100%
 # - si el tamaño (número de caracteres) del string es PAR

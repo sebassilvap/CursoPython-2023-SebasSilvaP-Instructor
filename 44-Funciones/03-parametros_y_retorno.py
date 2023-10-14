@@ -27,6 +27,7 @@ saludar()
 despedirse()
 
 
+
 #? 2) Función CON parámetros y SIN retorno
 print('\n2) Función CON parámetros y SIN retorno')
 
@@ -42,9 +43,9 @@ hola('Carlos')
 #hola() #! TypeError: hola() missing 1 required positional argument: 'n'
 
 
+
 #? 3) Función SIN parámetros y CON retorno / return
 print('\n3) Función SIN parámetros y CON retorno / return')
-
 # - ya hemos visto el retorno antes
 # - en algunos métodos
 # - luego veremos que los métodos son a la final funciones
@@ -79,6 +80,7 @@ print(numero_pi)
 print( devolver_pi() )
 
 
+
 #? 4) Función CON parámetros y CON retorno / return
 print('\n4) Función CON parámetros y CON retorno / return')
 
@@ -97,4 +99,3 @@ print( suma(9,8) )
 # => podemos guardar en una variable
 resultado = suma(10,25)
 print(resultado)
-    

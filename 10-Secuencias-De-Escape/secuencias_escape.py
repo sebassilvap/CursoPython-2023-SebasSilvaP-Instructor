@@ -13,7 +13,11 @@
 #   \n       Nueva Línea      Inserta un salto del línea en tabulación 0
 # =========================================================================================
 
+
 #? 1)  \\ Backslash
+print('1)  Backslash')
+print()
+
 print('Este es un backslash \ lo podemos poner así')
 print('Esta secuencia \n es para poner una nueva línea')
 print('Esta secuencia \\n es para poner una nueva línea')
@@ -30,8 +34,11 @@ print(var_3)
 print(var_4)
 
 
-#? 2) \' Comilla Simple
-#? 3) \" Comilla Doble
+
+#? 2) \' Comilla Simple  y  \" Comilla Doble
+print('2) Comilla Simple y Comilla Doble')
+print()
+
 #print('la palabra 'python' va en comilla simple') #! ERROR de sintaxis
 
 # => una solución a este erro (usar comilla doble)
@@ -44,7 +51,11 @@ print('la palabra \'python\' va en comilla simple')
 print("la palabra \"python\" va en comilla doble")
 
 
-#? 4) \b Retroceso
+
+#? 3) \b Retroceso
+print('3) Retroceso')
+print()
+
 # - elimina el caracter que tiene a la izquierda
 
 print('palabra')
@@ -52,21 +63,36 @@ print('pala\bbra')
 print('Hola Sebas Silva')
 print('Hola \bSebas \bSilva')
 
-#? 5) \f Formfeed
+
+
+#? 4) \f Formfeed
+print('4) Formfeed')
+print()
+
 # - Para añadir nueva línea con tab secuencial
 # - Puede ser que algunos editores de código no lo reconozcan
 
 print('HolaSebasSilva')
 print('Hola\fSebas\fSilva')
 
-#? 6) \v Tab Vertical
+
+
+#? 5) \v Tab Vertical
+print('5) Tab Vertical')
+print()
+
 # - Hace lo mismo que el Formfeed
 # - Puede ser que algunos editores de código no lo reconozcan
 
 print('HolaSebasSilva')
 print('Hola\vSebas\vSilva')
 
-#? 7) \t Tab Horizontal
+
+
+#? 6) \t Tab Horizontal
+print('6) Tab Horizontal')
+print()
+
 # - Para introducir un espaciado de tab
 
 print('HolaSebasSilva')
@@ -74,7 +100,12 @@ print('Hola\tSebas\tSilva')
 print('Hola\tSebas\t\tSilva')
 print('Hola\tSebas\t\t\tSilva')
 
-#? 8) \r Carriage Return
+
+
+#? 7) \r Carriage Return
+print('7) Carriage Return')
+print()
+
 # - Básicamente toma lo que tiene a la derecha
 # - Y lo pone al inicio
 # - Ocupando el número de caracteres de lo que hay a la derecha
@@ -88,7 +119,12 @@ print('abcdef\rxyz\r12')
 # xyzdef\r12
 # 12zdef
 
-#? 9) \n Nueva línea
+
+
+#? 8) \n Nueva línea
+print('8) Nueva línea')
+print()
+
 #! IMPORTANTE
 
 # - Inserta un nuevo salto de línea

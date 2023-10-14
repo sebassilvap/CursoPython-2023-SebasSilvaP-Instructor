@@ -9,8 +9,10 @@
 # - y trabajar arrays numéricos (listas con números)
 # ======================================================
 
+
 array_1 = [10, 20, 30, 40, 50]
 array_2 = [50, 70, 10, 20, 30]
+
 
 #? 1) concatenación y producto funcionan de otra manera
 print('\n1) concatenación y producto funcionan de otra manera')
@@ -20,6 +22,7 @@ resultado_2 = 2 * array_1
 
 print(resultado_1)
 print(resultado_2)
+
 
 
 #? 2) Suma de Listas Numéricas
@@ -39,6 +42,7 @@ else:
 # end if
 
 print('SUMA =', resultado)
+
 
 
 #? 3) Resto de Operaciones para Listas Numéricas

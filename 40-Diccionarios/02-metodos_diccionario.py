@@ -18,6 +18,7 @@ superheroe = {
     'activo' : True
 }
 
+
 #? 1) .get()
 print('\n1) .get()')
 # - obtener el valor de una clave
@@ -28,6 +29,7 @@ print( superheroe['superpoder'] )
 # => con .get()
 print( superheroe.get('activo') )
 print( superheroe.get('nombre_real') )
+
 
 
 #? 2) .keys()
@@ -49,6 +51,7 @@ for clave in claves:
 # end for
 
 
+
 #? 3) .values()
 print('\n3) .values()')
 # - retorna los valores de las claves de un diccionario
@@ -66,6 +69,7 @@ print()
 for valor in valores:
     print(valor, '--', type(valor))
 # end for
+
 
 
 #? 4) .items()
@@ -123,15 +127,17 @@ superheroe = {
 }
 
 
+
 #? 5) .update()
 print('\n5) .update()')
 # - tiene 2 funciones
 # - modifica el valor de una clave
 # - añade nuevos pares de clave-valor
 
-
+# ----------------------------
 # 5.1) uso básico
 print('\n5.1) uso básico\n')
+# ----------------------------
 
 print( superheroe, len(superheroe) )
 
@@ -146,8 +152,10 @@ superheroe.update(mod_heroe)
 print( superheroe, len(superheroe) )
 
 
+# --------------------------------------------------
 # 5.2) Manera tradicional con corchete
 print('\n5.2) Manera tradicional con corchete\n')
+# --------------------------------------------------
 
 superheroe['enemigo'] = 'Flash Reverso'
 print( superheroe, len(superheroe) )
@@ -205,7 +213,6 @@ print( auto, len(auto) )
 print( modelo )
 
 
-
 # -------------------------------------------------
 #* Métodos para Eliminar Elementos de Diccionario
 #  .pop()
@@ -259,6 +266,7 @@ print( superheroe, len(superheroe) )
 #superheroe.pop('enemigo') #! KeyError: 'enemigo'
 
 
+
 #? 8) .popitem()
 print('\n8) .popitem()')
 # - Python > 3.7 => borra el último elemento insertado (Diccionarios Ordenados)
@@ -284,6 +292,7 @@ print( superheroe, len(superheroe) )
 print( valor_eliminado, type(valor_eliminado) )
 
 
+
 #? 9) .clear()
 print('\n9) .clear()')
 # - vacía por completo el diccionario
@@ -299,6 +308,7 @@ print( auto, len(auto) )
 
 auto.clear()
 print( auto, len(auto) )
+
 
 
 #? 10) del diccionario['clave']
@@ -325,6 +335,8 @@ del auto
 # ------------------
 #* Resto de Métodos
 # ------------------
+
+
 
 #? 11) .fromkeys()
 print('\n11) .fromkeys()')

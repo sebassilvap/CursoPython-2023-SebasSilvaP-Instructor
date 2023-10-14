@@ -34,9 +34,12 @@ print( 'var_10 =' , var_10 , ' => a bool => ' , bool(var_10) )
 print( 'var_11 =' , var_11 , ' => a bool => ' , bool(var_11) )
 print( 'var_12 =' , var_12 , ' => a bool => ' , bool(var_12) )
 
+
+# -------------------------------------------------------------
 # => Conclusión
 # - si el valor es 0 (entero o flotante) => esto es un False
 # - diferente de 0 (positivo o negativo) => True
 # - un string vacío => False
 # - un solo caracter, así sea 1 espacio en blanco => True
 # - un valor nulo (None) => False
+# -------------------------------------------------------------

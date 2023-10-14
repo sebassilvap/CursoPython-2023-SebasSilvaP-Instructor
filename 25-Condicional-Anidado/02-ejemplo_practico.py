@@ -5,7 +5,8 @@
 # - Aplicado al diseño del comando de un juego
 # =============================================
 
-#? Ejemplo práctico
+#? 1) Ejemplo práctico
+print('\n1) Ejemplo práctico')
 
 # El player tiene 2 opciones
 # (1) Ataque

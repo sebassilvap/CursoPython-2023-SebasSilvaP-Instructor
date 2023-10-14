@@ -15,6 +15,7 @@ z - profundidad
 # - listas 3D => enlace entre la programación y gráficos 3D
 # ================================================================
 
+
 #? 1) Ejemplo Básico de Lista en 3D
 print('\n1) Ejemplo Básico de Lista en 3D')
 
@@ -37,6 +38,7 @@ lista3D = [
 ]
 
 print( lista3D )
+
 
 
 #? 2) Recorrido Básico de Lista 3D con for
@@ -79,6 +81,7 @@ for i in lista3D:
 # end for
 
 
+
 #? 3) Recorrido Básico de Lista 3D con for + enumerate
 print('\n3) Recorrido Básico de Lista 3D con for + enumerate')
 
@@ -103,6 +106,7 @@ for i, ancho in enumerate(lista3D):
     # end for
     print()
 # end for
+
 
 
 #? 4) Recorrido Básico de Lista 3D con while

@@ -13,7 +13,6 @@
 
 #? 1) EJ: división para cero
 print('\n1) EJ: división para cero')
-
 # - sin necesidad de imprimir
 # - o guardar en una variable
 # - al poner lo siguiente en el código
@@ -39,7 +38,9 @@ print( division(12,4) )
 
 
 
-#? 2) IndexError al acceder a una lista
+#? 2) EJ: IndexError al acceder a una lista
+print('\n2) EJ: IndexError al acceder a una lista')
+
 lista = ['A', 'B', 'C']
 #(+)      0    1    2
 #(-)      3    2    1
@@ -74,8 +75,8 @@ print( acceder_index(lista, -4) )
 
 
 
-#? 3) Cuando ingresamos un argumento de un tipo de dato inválido
-print('\n3) Cuando ingresamos un argumento de un tipo de dato inválido')
+#? 3) EJ: Tipo de Dato incorrecto en función promedio
+print('\n3) EJ: Tipo de Dato incorrecto en función promedio')
 
 #* REVISAR:
 # => ejemplo de función promedio

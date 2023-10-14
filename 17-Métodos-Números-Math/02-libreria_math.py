@@ -7,11 +7,13 @@
 # - pero debemos importarla para poder usarla
 # =======================================================
 
+
 #? 1) Importación del módulo
 print('\n1) Importación del módulo')
 # - las importaciones siempre son la 1era línea de código
 
 import math
+
 
 
 #? 2) Constantes Matemáticas
@@ -26,13 +28,16 @@ print('constante_pi =' , constante_pi)
 print('constante_e =' , constante_e)
 
 
+
 #? 3) Representación Numérica
 print('\n3) Representación Numérica')
 
-## 3.1) math.ceil() & math.floor()
+# ------------------------------------------------
+# 3.1) math.ceil() & math.floor()
 print('\n3.1) math.ceil() & math.floor()')
 # - math.ceil()  => devuelve el entero superior
 # - math.floor() => devuelve el entero inferior
+# ------------------------------------------------
 
 #    ENTERO SUPERIOR         |      ENTERO INFERIOR
 print( math.ceil(5.0001) , ' | ' , math.floor(5.0001) )
@@ -46,14 +51,17 @@ print( round(5.5) )
 print( round(5.99999) )
 
 
-## 3.2) math.fabs()
+# --------------------------------
+# 3.2) math.fabs()
 print('\n3.2) math.fabs()')
 # - igual que abs()
 # - devuelve el valor absoluto
-#! - pero lo devuelve como float
+# ! pero lo devuelve como float
+# --------------------------------
 
 print( math.fabs(-10) , '|', abs(-10) )
 print( math.fabs(-55.999996) , '|', abs(-55.999996) )
+
 
 
 #? 4) Mínimo Común Múltiplo & Máximo Común Divisor
@@ -71,30 +79,37 @@ print( 'math.lcm(9,3) =' , math.lcm(9,3) ) # 24
 print( 'math.gcd(9,3) =' , math.gcd(9,3) ) # 1
 
 
+
 #? 5) Raíces y Potencia
 print('\n5) Raíces y Potencia')
 
-## 5.1) math.sqrt()
+# -------------------------------------
+# 5.1) math.sqrt()
 print('\n5.1) math.sqrt()')
 # - raíz cuadrada
 # - sqrt = square root
 # - IMPORTANTE: devuelve un flotante
+# -------------------------------------
 print( 'math.sqrt(25) =' , math.sqrt(25) )
 print( 'math.sqrt(81) =' , math.sqrt(81) )
 print( 'math.sqrt(10) =' , math.sqrt(10) )
 
 
-## 5.2) math.cbrt()
+# ---------------------------------------
+# 5.2) math.cbrt()
 print('\n5.2) math.cbrt()')
 # - raíz cúbica
 # - cbrt = cubic root
 # - IMPORTANTE: devuelve un flotante
+# ---------------------------------------
 print( 'math.cbrt(8) =' , math.cbrt(8) )
 print( 'math.cbrt(30) =' , math.cbrt(30) )
 
 
-## 5.3) Potencia
+# -----------------------
+# 5.3) Potencia
 print('\n5.3) Potencia')
+# -----------------------
 
 # operador interno **
 print( 3 ** 2 )
@@ -102,8 +117,12 @@ print( 3 ** 2 )
 # math.pow()
 print( math.pow(3,2) ) # devuelve flotante
 
-## 5.4) Truco para raíces
+
+# -----------------------------------------
+# 5.4) Truco para raíces
+print('\n5.4) Truco para raíces')
 # math.sqrt(25) = 25 ** 0.5 = 25 ** (1/2)
+# -----------------------------------------
 
 # raíz cuadrada
 print( math.sqrt(25) )  # 5.0
@@ -119,6 +138,7 @@ print( math.pow(64, 1/3) )  # 3.99999996
 # raíz de cualquier valor
 print( 32 ** (1/5) )  # raíz quinta de 32 = 2
 print( math.pow(32, 1/5) )  # 2
+
 
 
 #? 6) Logaritmos
@@ -138,6 +158,7 @@ print( math.log(num_1) ) # 2.0
 print( math.log10(num_2) ) # 3.0
 
 
+
 #? 7) Exponencial e
 print('\n7) Exponencial e')
 # - math.exp()
@@ -146,6 +167,7 @@ print('\n7) Exponencial e')
 print( math.exp(3) ) # 20.085536923187668
 print( math.e ** 3 ) # 20.085536923187664
 print( 2.718 ** 3 ) # 20.079290231999998
+
 
 
 #? 8) Conversión de Ángulos
@@ -190,6 +212,7 @@ print( '45 grados =' , math.radians(45) )  # 0.7853981633974483
 print( '30 grados =' , math.radians(30) )  # 0.5235987755982988
 
 
+
 #? 9) Funciones Trigonométricas
 print('\n9) Funciones Trigonométricas')
 # - los valores deben darse en RADIANES !!
@@ -219,6 +242,7 @@ print( math.acos(0.5) * (180 / math.pi) , 'GRADOS' ) # 60.00000000000001 GRADOS
 print( math.degrees( math.acos(0.5) ) , 'GRADOS' ) # 60.00000000000001 GRADOS
 
 
+
 #? 10) Truncate => Eliminando parte decimal
 print('\n10) Truncate => Eliminando parte decimal')
 # - math.trunc(x)
@@ -229,6 +253,7 @@ print( math.trunc(2.5569) ) # 2
 print( math.trunc( math.pi ) ) # 3
 print( math.trunc( math.e ) ) # 2
 print( math.trunc( 2.9999999 ) ) # 2
+
 
 
 #? 11) sum() & math.fsum()
@@ -242,6 +267,7 @@ print(sum(lista_2)) # 6.999999900000001
 
 # => math.fsum() resuelve este problema
 print(math.fsum(lista_2)) # 6.9999999
+
 
 
 #? 12) Funciones Hiperbólicas (*)

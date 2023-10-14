@@ -17,7 +17,10 @@
 # => en este caso separamos con una coma ','
 # ==================================================
 
+
 #? 1) Uso básico sin step
+print('\n1) Uso básico sin step')
+
 #(+)         0123456789012
 #(-)                             4321
 website_1 = 'https://www.facebook.com'
@@ -41,7 +44,11 @@ print(web_1)
 print(web_2)
 print(web_3)
 
+
+
 #? 2) Utilizando también step
+print('\n2) Utilizando también step')
+
 patron_corte_step_2 = slice(12,-4,2)
 
 web_1_reducida = website_1[patron_corte_step_2]

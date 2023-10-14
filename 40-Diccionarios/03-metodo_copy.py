@@ -7,6 +7,7 @@
 # - a partir de otro diccionario
 # =================================
 
+
 #? 1) Problema General de Creación a partir de otra Variable
 print('\n1) Problema General de Creación a partir de otra Variable')
 
@@ -37,6 +38,7 @@ print()
 print( lista_1, '|', lista_2 )
 print( set_1, '|', set_2 )
 print( dict_1, '|', dict_2 )
+
 
 
 #? 2) Utilizando .copy()

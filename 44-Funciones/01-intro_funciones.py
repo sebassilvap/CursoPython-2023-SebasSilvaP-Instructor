@@ -30,12 +30,15 @@ print( '\nSu nombre es:', nombre )
 print( 'Usted tiene', edad, 'años' )
 print( 'Su nota final es =', nota_final )
 
+
+# ------------------------------------------------------------
 # - ¿Es esto óptimo?
 # - ¿Repetir líneas de programación que hacen lo mismo?
 # - en este caso son 3
 # - pero si se tratase de una funcionalidad de 1000 líneas
 # - ¿sería conveniente hacerlo así?
-#* => NO
+# * => NO
+# ------------------------------------------------------------
 
 # => en el siguiente script veamos como sería esto de manera óptima utilizando funciones
 

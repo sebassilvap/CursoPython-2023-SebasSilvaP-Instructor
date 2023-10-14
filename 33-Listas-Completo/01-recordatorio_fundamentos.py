@@ -8,6 +8,7 @@
 # - Concatenación
 # =================================
 
+
 #? 1) Creación de Listas
 print('\n1) Creación de Listas')
 # - una lista se crea con corchetes []
@@ -49,6 +50,7 @@ print( lista_1, type(lista_1) )
 print( lista_2, type(lista_2) )
 
 
+
 #? 2) Creación Lista Vacía
 print('\n2) Creación Lista Vacía')
 # - Nos sirve para iniciar un valor de lista
@@ -68,6 +70,7 @@ lista_vacia = list()
 print(lista_vacia, type(lista_vacia))
 
 
+
 #? 3) Función len()
 print('\n3) Función len()')
 # - len() => devuelve el número de elementos
@@ -80,14 +83,17 @@ print( len(string) )
 print( len(lista) )
 
 
+
 #? 4) in + Listas
 print('\n4) in + Listas')
 # - una manera de averiguar si un elemento está en una lista
+
 lista = [10, True, 'hola', -5.5]
 
 print( 20 in lista )
 print( False in lista )
 print( 'hola' in lista )
+
 
 
 #? 5) Concatenación
@@ -107,6 +113,7 @@ resultado_2 = lista_2 + lista_1
 
 print(resultado_1)
 print(resultado_2)
+
 
 
 #? 6) Operador * en listas

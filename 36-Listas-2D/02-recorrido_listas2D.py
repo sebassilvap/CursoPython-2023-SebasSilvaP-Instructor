@@ -2,14 +2,15 @@
 # Recorrido de Listas en 2 Dimensiones
 # ======================================
 
+
 #? 1) Recorrido de Lista 2D con Bucle Anidado for
 print('\n1) Recorrido de Lista 2D con Bucle Anidado for')
 # - en bucles anidados y su uso en recorrido de listas 2D o 3D
 # - se puede usar la nomenclatura de los vectores unitarios para el recorrido
 # - Recordar: Vectores Unitarios => i,j,k
 # - En este caso:
-#* i = filas
-#* j = columnas
+# *     i = filas
+# *     j = columnas
 
 matriz = [
     [1,2,3],
@@ -26,6 +27,7 @@ for i in matriz:
     # end for
     print()
 # end for
+
 
 
 #? 2) Recorrido de Lista 2D con for + enumerate
@@ -46,6 +48,7 @@ for i, fila in enumerate(matriz):
     # end for
     print()
 # end for
+
 
 
 #? 3) Recorrido de Lista 2D con while
@@ -73,6 +76,3 @@ while i < len(matriz):
     i += 1
     print()
 # end while
-
-
-

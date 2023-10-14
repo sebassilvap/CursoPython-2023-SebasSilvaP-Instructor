@@ -24,6 +24,7 @@ print( tupla_1 , type(tupla_1) )
 print( tupla_2 , type(tupla_2) )
 
 
+
 #? 2) Indexing & Slicing en Tuplas
 print('\n2) Indexing & Slicing en Tuplas')
 
@@ -49,6 +50,7 @@ print( tupla_1[::2] )
 print( tupla_1[2:100] ) # recordar que en slicing no tenemos IndexError
 
 
+
 #? 3) función len()
 print('\n3) función len()')
 # - al igual que en string y listas
@@ -59,6 +61,7 @@ tupla_2 = tuple( (100, 'java', -5.5, False) )
 
 print( tupla_1 , len(tupla_1) )
 print( tupla_2 , len(tupla_2) )
+
 
 
 #? 4) in + tuplas
@@ -72,6 +75,7 @@ print( 'java' in tupla_1 )
 print( 'python' in tupla_1 )
 
 
+
 #? 5) Las Tuplas son INMUTABLES
 print('\n5) Las Tuplas son INMUTABLES')
 # - la única manera de cambiarlas es reasignando
@@ -82,8 +86,11 @@ print(tupla_1, type(tupla_1))
 
 #tupla_1[0] = -100 #! TypeError: 'tuple' object does not support item assignment
 
+
+# --------------------------------------
 # 5.1) Concatenando Valores
 print('\n5.1) Concatenando Valores\n')
+# --------------------------------------
 
 tupla_1 = (500, 'python', -8.9, True)
 tupla_2 = ('A', 'B')
@@ -102,8 +109,10 @@ tupla_1 += tupla_2
 print(tupla_1)
 
 
+# -------------------------------------
 # 5.2) Concatenando 1 valor
 print('\n5.2) Concatenando 1 valor\n')
+# -------------------------------------
 
 tupla_1 = (500, 'python', -8.9, True)
 tupla_2 = (1000,) #! para evitar error se deja la coma al final
@@ -115,8 +124,10 @@ tupla_1 += tupla_2
 print( tupla_1, type(tupla_1), len(tupla_1) )
 
 
+# ---------------------------------------------------
 # 5.3) Casting a Lista para modificación
 print('\n5.3) Casting a Lista para modificación\n')
+# ---------------------------------------------------
 
 tupla_1 = (500, 'python', -8.9, True)
 

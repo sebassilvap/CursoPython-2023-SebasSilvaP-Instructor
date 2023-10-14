@@ -1,5 +1,6 @@
 # =============================================
 # Ejercicio
+
 # - lista de compras
 # - agregar / eliminar compras de una lista
 # - la lista de compras debe ser un set
@@ -21,6 +22,7 @@ eliminar = ['Vino', 'Galletas']
 
 print('Lista de Compras:\n')
 print( lista_compras )
+
 
 # Recordar => Recorrido de Set
 for compra in lista_compras:

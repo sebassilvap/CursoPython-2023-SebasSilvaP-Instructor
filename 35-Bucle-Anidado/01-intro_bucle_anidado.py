@@ -7,6 +7,7 @@
 # - Recordar que nuestro código siempre debe ser fácil de leer
 # ==============================================================
 
+
 #? 1) Ejemplo Básico: Bucle for anidado
 print('\n1) Ejemplo Básico: Bucle for anidado')
 
@@ -27,6 +28,7 @@ for i in range(1,4): # 3 iteraciones
     # end for
     print()
 # end for
+
 
 
 #? 2) Ejemplo Básico: Bucle while anidado
@@ -86,6 +88,7 @@ while i < 3:
 # ------------------------------------------------------
 
 
+
 #? 3) Bucle anidado for: Coordenadas de filas y columnas
 print('\n3) Bucle anidado for: Coordenadas de filas y columnas')
 
@@ -106,6 +109,7 @@ for i in range(1,4): # 3 filas
     # end for
     print()
 # end for
+
 
 
 #? 4) Bucle anidado while: Coordenadas de filas y columnas

@@ -6,8 +6,10 @@
 # - while + if ya nos permiten hacer muchas cosas
 # ==============================================================
 
+
 #? 1) Forzar al usuario ingresar siempre un valor
-print('\n1) Forzar al usuario ingresar siempre un valor\n')
+print('\n1) Forzar al usuario ingresar siempre un valor')
+
 
 '''
 nombre = '' # una manera de inicializar una variable string
@@ -19,9 +21,12 @@ while len(nombre) == 0:
 print('Su nombre es:', nombre)
 '''
 
+
+
 #? 2) Otra manera => con operador lógico not
-print('\n2) Otra manera => con operador lógico not\n')
+print('\n2) Otra manera => con operador lógico not')
 #! Tema un poco avanzado
+
 
 '''
 #! RECORDAR: valor booleano en las variables
@@ -49,17 +54,18 @@ while not nombre:
 
 print('Su nombre es:', nombre)
 
-#* NOTA:
+# * NOTA:
 # - al poner variable dentro de while
 # - se está analizando su valor booleano
 '''
 
 
+
 #? 3) Error a evitar => usando comparación ==
-print('\n3) Error a evitar => usando comparación ==\n')
+print('\n3) Error a evitar => usando comparación ==')
 #! No utilizar la comparación para esto
 
-# ej:
+# EJ:
 nombre = ''
 
 # si hacemos lo siguiente:
@@ -88,5 +94,4 @@ while nombre == False:
 
 while bool(nombre) == False:
     nombre = input('Ingrese su nombre: ')
-
-
+# end while

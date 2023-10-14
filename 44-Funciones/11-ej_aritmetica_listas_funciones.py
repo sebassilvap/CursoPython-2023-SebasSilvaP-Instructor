@@ -44,6 +44,8 @@ match operacion:
 
 '''
 
+
+
 #? 2) Solución por medio de funciones
 print('\n2) Solución por medio de funciones')
 # - esta es una de las prácticas más conocidas en programación
@@ -75,7 +77,6 @@ def operar_arrays(array1, array2, operador):
             return 'ERROR - Operación Inválida'
         # end if
 # end def
-
 
 # ---------------
 #* TEST

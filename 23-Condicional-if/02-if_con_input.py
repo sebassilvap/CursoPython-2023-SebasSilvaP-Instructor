@@ -12,6 +12,7 @@ opcion = input('Ingrese un número del 1 al 100: ')
 # - no lo detecta el editor
 # - el error se da al ejecutar e ingresar un valor
 # - porque estoy evaluando un string
+
 '''
 if opcion < 50:
     print('Ingresó un número menor a 50!')

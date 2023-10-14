@@ -16,6 +16,9 @@
 
 
 #? 1) Operación Incremento Básico
+print('1) Operación Incremento Básico')
+print()
+
 num_1 = 5
 num_2 = 3
 
@@ -35,7 +38,12 @@ print(num_1)
 
 # => de manera formal esto se conoce como suma en la asignación
 
+
+
 #? 2) Shortcut de Operaciones / Operadores de Asignación
+print('2) Shortcut de Operaciones / Operadores de Asignación')
+print()
+
 print('\n*** Suma en Asignación ***')
 num_1 = 2
 num_1 += 100

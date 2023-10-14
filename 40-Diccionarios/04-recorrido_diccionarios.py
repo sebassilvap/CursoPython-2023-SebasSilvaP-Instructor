@@ -39,12 +39,14 @@ for key in personaje:
 # end for
 
 
+
 #? 2) for normal => para acceder al valor con la clave
 print('\n2) for normal => para acceder al valor con la clave')
 
 for i in personaje:
     print( i, '--', personaje[i] )
 # end for
+
 
 
 #? 3) for + .keys() => otra manera de acceder a las claves
@@ -55,12 +57,14 @@ for clave in personaje.keys():
 # end for
 
 
+
 #? 4) for + .values() => para acceder a los valores de la clave:
 print('\n4) for + .values() => para acceder a los valores de la clave:')
 
 for valor in personaje.values():
     print(valor)
 # end for
+
 
 
 #? 5) for + .items() => manera más usada : clave + valor

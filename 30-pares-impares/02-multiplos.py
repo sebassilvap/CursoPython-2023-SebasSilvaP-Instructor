@@ -13,6 +13,7 @@
 #*   0
 # ================================================
 
+
 #? 1) EJ: Múltiplos de 7 en lista del 1 al 100
 print('\n1) EJ: Múltiplos de 7 en lista del 1 al 100')
 
@@ -25,6 +26,7 @@ for i in range(1,101):
 # end for
 
 print(multiplos_siete)
+
 
 
 #? 2) EJ: Múltiplos del 8 en lista del 1 al 100

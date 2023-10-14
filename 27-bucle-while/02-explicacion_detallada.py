@@ -7,7 +7,8 @@
 # - y dentro de un bucle en sí
 # =======================================================================
 
-#? imprimir un contador del 1 al 4
+#? 1) Imprimir un contador del 1 al 4
+print('\n1) Imprimir un contador del 1 al 4')
 
 contador = 1
 

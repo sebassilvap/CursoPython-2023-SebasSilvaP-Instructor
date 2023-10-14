@@ -2,15 +2,17 @@
 # Función Interna input()
 # PARTE 2
 
-# - Lectura por teclado / Entrada de datos
-# - Otra función interna de Python
-# - De esta manera podemos almacenar entradas del usuario en la terminal
-# - y adicionalmente podemos guardar este valor en una variable
-#! NOTA IMPORTANTE:
-# - el valor que devuelve la consola es un string
+# -   Lectura por teclado / Entrada de datos
+# -   Otra función interna de Python
+# -   De esta manera podemos almacenar entradas del usuario en la terminal
+# -   y adicionalmente podemos guardar este valor en una variable
+# !   NOTA IMPORTANTE:
+# -   el valor que devuelve la consola es un string
 # =========================================================================
 
-#? Script de Python para saludar e interactuar con el usuario
+
+#? 1) Script de Python para saludar e interactuar con el usuario
+print('\n1) Script de Python para saludar e interactuar con el usuario')
 
 nombre = input('Ingrese su nombre : ')
 
@@ -18,9 +20,10 @@ nombre = input('Ingrese su nombre : ')
 #edad = int(edad)
 
 ## => podemos resumir las 2 anteriores líneas en una
-# (funciones en cadena
+# (funciones en cadena)
 edad = int( input('Ingrese su edad : ') )
 edad_next_year = edad + 1
+
 
 # Impresión en la consola:
 

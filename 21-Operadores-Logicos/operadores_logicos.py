@@ -13,11 +13,11 @@ or       |  not X    |  Niega al booleano
 '''
 # =================================================================
 
+
 #? 1) Operador not
+print('\n1) Operador not')
 # - realiza una negación lógica
 # - niega / dice que no
-
-print('\n 1) Operador not')
 
 verdadero = True
 falso = False
@@ -42,9 +42,11 @@ print('\nnegación con números ?')
 print(5) # 5
 print(not 5) # False
 
+# -----------------------------------------------------
 # => RECORDAR el valor booleano de las variables
 # 0 => False
 # cualquier otro número positivo o negativo => True
+# -----------------------------------------------------
 
 print(0) # False
 print(not 0) # True
@@ -60,19 +62,21 @@ cadena_3 = ''
 print(cadena_1, cadena_2, cadena_3)
 print(not cadena_1, not cadena_2, not cadena_3) 
 
+# ----------------------------------------------------
 # => RECORDAR el valor booleano de las variables
 # string vacío => False
 # cualquier otro string así sea un espacio => True
+# ----------------------------------------------------
+
 
 
 #? 2) Operador and
+print('\n2) Operador and')
 #  - operador de conjunción
 #  - viene de la palabra conjunto => unido, contiguo, cercano
 #  - agrupa valores booleanos UNIENDO
-#! - unión lógica (Y)
+#  ! unión lógica (Y)
 #  - basta que uno sea False => el resultado es False
-
-print('\n 2) Operador and')
 
 print('\nTabla lógica de and (Y)\n')
 
@@ -117,14 +121,14 @@ print(nombre_user_2.istitle(),
       nombre_user_2.istitle() and len(nombre_user_2) >= 5 and nombre_user_2.isalpha() )
 
 
+
 #? 3) Operador and
+print('\n3) Operador and')
 #  - operador de disyunción
 #  - viene de la palabra disyunto => separado, apartado, distante
 #  - agrupa valores booleanos SEPARANDO
-#! - separación lógica (O) 
+#  ! separación lógica (O) 
 #  - basta que uno sea True => el resultado es True
-
-print('\n3) Operador or')
 
 print('\nTabla lógica de or (O)\n')
 
@@ -148,12 +152,12 @@ print( medida_2, medida_2 < 12 or medida_2 > 15 ) # False
 print( medida_3, medida_3 < 12 or medida_3 > 15 ) # False
 print( medida_4, medida_4 < 12 or medida_4 > 15 ) # True
 
+
 print('\nEjemplo práctico => analizar comandos en un programa\n')
 # tenemos 3 comandos posibles
 # - añadir
 # - eliminar
 # - salir
-
 
 comando_1 = 'añadir'
 comando_2 = 'hola'

@@ -1,5 +1,4 @@
 # =====================================================================================================
-
 # Bucle for
 
 # - se lo utiliza para iterar una SECUENCIA
@@ -35,7 +34,7 @@ https://www.w3schools.com/python/python_datatypes.asp
 
 # - por el momento vamos a ver su uso y aplicación en las sencuencias que ya conocemos
 
-#* ESTRUCTURA BÁSOCA
+#* ESTRUCTURA BÁSICA
 '''
 for elemento in secuencia:
     print(elemento)
@@ -45,8 +44,9 @@ for elemento in secuencia:
 
 # =====================================================================================================
 
+
 #? 1) for + string
-print('\n1) for + string\n')
+print('\n1) for + string')
 
 cadena = 'ecuador'
 
@@ -57,8 +57,9 @@ for letra in cadena:
 # end for
 
 
+
 #? 2) for + string + index
-print('\n2) for + string + index\n')
+print('\n2) for + string + index')
 
 # - podemos usar un contador externo que interactúe con el for como índice
 
@@ -81,8 +82,9 @@ for letra in cadena:
 # end for
 
 
+
 #? 3) Uso más común => for + range
-print('\n3) Uso más común => for + range\n')
+print('\n3) Uso más común => for + range')
 
 # - iterar números del 1 al 10
 
@@ -91,8 +93,9 @@ for x in range(1,11):
 # end for
 
 
+
 #? 4) Repaso: range con salto
-print('\n4) Repaso: range con salto\n')
+print('\n4) Repaso: range con salto')
 
 # - contar del 1 al 20 en saltos de 3
 
@@ -101,8 +104,9 @@ for x in range(1,21,3):
 # end for
 
 
+
 #? 5) for + listas
-print('\n5) for + listas\n')
+print('\n5) for + listas')
 
 heroes = ['superman', 'goku', 'batman', 'spiderman']
 
@@ -116,8 +120,9 @@ for heroe in heroes:
 # - sin embargo podemos usar cualquier nombre
 
 
+
 #? 6) for + listas + index
-print('\n6) for + listas + index\n')
+print('\n6) for + listas + index')
 
 # - igualmente podemos valernos de un contador externo que funcione como index
 # - de esta manera podemos complementar la iteración de una secuancia
@@ -141,8 +146,9 @@ for heroe in heroes:
 # end for
 
 
+
 #? 8) range vs. list
-print('\n8) range vs. list\n')
+print('\n8) range vs. list')
 
 # - en python 2 el range se traducía a una lista
 # - range(5) = [0,1,2,3,4]

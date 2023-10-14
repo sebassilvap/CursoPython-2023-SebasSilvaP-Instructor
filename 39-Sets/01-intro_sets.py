@@ -22,6 +22,7 @@ conjunto = {'ecuador', 'usa', 'alemania', 'china'}
 print(conjunto, type(conjunto) , len(conjunto))
 
 
+
 #? 2) Creación de Set con la función set()
 print('\n2) Creación de Set con la función set()')
 # - más que función => constructor set()
@@ -34,6 +35,7 @@ set_2 = set( (20, 'B', -10.9) )
 
 print( set_1, type(set_1), len(set_1) )
 print( set_2, type(set_2), len(set_2) )
+
 
 
 #? 3) Inicializar un set vacío
@@ -54,12 +56,14 @@ print( set_2 , type(set_2) , len(set_2) )
 # {} <class 'dict'> 0
 
 
+
 #? 4) Set no permite elementos repetidos
 print('\n3) Set no permite elementos repetidos')
 
 set_1 = {'A', 100, 5.5, 'A', 10, 100}
 
 print( set_1, len(set_1) )
+
 
 
 #? 5) Indexing y Slicing
@@ -78,8 +82,9 @@ print(set_1)
 #print( set_1[0:3] ) #! TypeError: 'set' object is not subscriptable
 
 
+
 #? 6) in + set => averiguar si un elemento existe en el set
-print('\n5) in + set => averiguar si un elemento existe en el set')
+print('\n6) in + set => averiguar si un elemento existe en el set')
 
 set_1 = { 10, 'python', -8.5, True }
 
@@ -87,8 +92,9 @@ print( 10 in set_1 ) # True
 print( 'java' in set_1 ) # False
 
 
+
 #? 7) Recorrido de set => manera de saber sus elementos
-print('\n6) Recorrido de set => manera de saber sus elementos')
+print('\n7) Recorrido de set => manera de saber sus elementos')
 # - como vimos no es posible acceder a los items de un set con el index
 # - pero es posible desplegar sus elementos
 # - con un bucle
@@ -112,13 +118,16 @@ for elemento in set_1:
 # end for
 
 
+
 #? 8) No existe concatenación ni producto en set
-print('\n7) No existe concatenación ni producto en set')
+print('\n8) No existe concatenación ni producto en set')
 # - Intentarlo nos lleva a un TypeError
 # - Recordar que esto era muy válido en listas y tuplas
 
+# ------------------------------------------
 # 8.1) Recordar listas y tuplas:
-print('\n7.1) Recordar listas y tuplas:\n')
+print('\n8.1) Recordar listas y tuplas:\n')
+# ------------------------------------------
 
 lista_1 = [1,2,3]
 lista_2 = ['A','B','C']
@@ -139,7 +148,11 @@ print( lista_producto, type(lista_producto), len(lista_producto) )
 print( tupla_concat, type(tupla_concat), len(tupla_concat) )
 print( tupla_producto, type(tupla_producto), len(tupla_producto) )
 
+
+# ---------------------------------------
 # 8.2) En set nos da error
+print('\n8.2) En set nos da error\n')
+# ---------------------------------------
 
 set_1 = {'a', 'b', 'c'}
 set_2 = {11, 12, 13}

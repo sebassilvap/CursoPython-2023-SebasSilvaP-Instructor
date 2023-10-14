@@ -7,7 +7,10 @@
 # - la solución a esto es el casting
 # =============================================================
 
+
 #? 1) Ejemplo de Error CLÁSICO
+print('\n1) Ejemplo de Error CLÁSICO')
+
 nombre = 'sebas'
 edad = 36
 nota = 18.5
@@ -59,7 +62,10 @@ b = ' '
 print( nombre + b + str(edad) + b + str(nota) + b + str(es_estudiante) )
 
 
+
 #? 2) RESUMEN: Maneras correcta de utilizar print
+print('\n2) RESUMEN: Maneras correcta de utilizar print')
+
 nombre = 'Diego'
 edad = 24
 es_estudiante = False

@@ -20,6 +20,7 @@ print( promedio_2_numeros(5,9) )
 print( promedio_3_numeros(17,15,20) )
 
 
+
 #? 2) Solución con Listas
 print('\n2) Solución con Listas')
 

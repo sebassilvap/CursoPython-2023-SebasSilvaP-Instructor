@@ -21,8 +21,8 @@ Método        |  Descripción
 # ================================================================================
 
 #? 1) .isalpha()
-
 print('\n1) .isalpha()')
+
 var_1 = 'abcde'
 var_2 = 'XYZabc'
 var_3 = 'abc1'
@@ -40,6 +40,7 @@ print( var_6 , '|' , var_6.isalpha() ) # False
 print( var_7 , '|' , var_7.isalpha() ) # False
 
 
+
 #? 2) .isalnum()
 print('\n2) .isalnum()')
 
@@ -54,6 +55,7 @@ print( var_2 , '|' , var_2.isalnum() ) # True
 print( var_3 , '|' , var_3.isalnum() ) # True
 print( var_4 , '|' , var_4.isalnum() ) # False
 print( var_5 , '|' , var_5.isalnum() ) # False
+
 
 
 #? 3) .isdigit()
@@ -77,6 +79,7 @@ print( var_7 , '|' , var_7.isdigit() ) # True
 print( var_8 , '|' , var_8.isdigit() ) # False 
 
 
+
 #? 4) .islower()
 print('\n4) .islower()')
 
@@ -87,6 +90,7 @@ var_3 = '  hola mundo'
 print( var_1 , '|' , var_1.islower() ) # True
 print( var_2 , '|' , var_2.islower() ) # False
 print( var_3 , '|' , var_3.islower() ) # True
+
 
 
 #? 5) .isupper()
@@ -103,6 +107,7 @@ print( var_2 , '|' , var_2.isupper() ) # False
 print( var_3 , '|' , var_3.isupper() ) # True
 print( var_4 , '|' , var_4.isupper() ) # True
 print( var_5 , '|' , var_5.isupper() ) # False
+
 
 
 #? 6) .istitle()
@@ -126,18 +131,17 @@ print( var_7 , '|' , var_7.istitle() ) # False
 print( var_8 , '|' , var_8.istitle() ) # False
 
 
+
 #? 7) .startswith()
 print('\n7) .startswith()')
 
 var_1 = 'aprendiendo python'
-print('\nvar_1 startswith() ?')
 print( "var_1.startswith('a') =>" , var_1.startswith('a') ) # True
 print( "var_1.startswith('') =>" , var_1.startswith('') ) # True
 print( "var_1.startswith(' ') =>" , var_1.startswith(' ') ) # False
 print( "var_1.startswith('A') =>" , var_1.startswith('A') ) # False
 
 var_2 = ' HEllo World'
-print('\nvar_2 startswith() ?')
 print( "var_2.startswith('H') =>" , var_2.startswith('H') ) # False
 print( "var_2.startswith(' H') =>" , var_2.startswith(' H') ) # True
 print( "var_2.startswith(' HE') =>" , var_2.startswith(' HE') ) # True
@@ -146,11 +150,11 @@ print( "var_2.startswith(' HEllo W') =>" , var_2.startswith(' HEllo W') ) # True
 print( "var_2.startswith('') =>" , var_2.startswith('') ) # True
 
 
+
 #? 8) .endswith()
 print('\n8) .endswith()')
 
 var_1 = 'aprendo PythON'
-print('\nvar_1.endswith('') ?')
 print( "var_1.endswith('') =>" , var_1.endswith('') ) # True
 print( "var_1.endswith('N') =>" , var_1.endswith('N') ) # True
 print( "var_1.endswith('ON') =>" , var_1.endswith('ON') ) # True

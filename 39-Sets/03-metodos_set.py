@@ -2,6 +2,7 @@
 # Métodos Internos para set
 # ==========================
 
+
 #? 1) .add()
 print('\n1) .add()')
 # - aunque no es posible cambiar los elementos
@@ -22,6 +23,7 @@ print( conjunto, type(conjunto), len(conjunto) )
 # - recordar, que set no permite duplicados
 conjunto.add('A')
 print( conjunto, type(conjunto), len(conjunto) )
+
 
 
 #? 2) .update()
@@ -54,6 +56,7 @@ print( colores_2, type(colores_2), len(colores_2) )
 print( colores_3, type(colores_3), len(colores_3) )
 
 
+
 #? 3) .remove()
 print('\n3) .remove()')
 # - elimina un elemento del set
@@ -71,6 +74,7 @@ print( colores, type(colores), len(colores) )
 #colores.remove('verde') #! KeyError: 'verde'
 
 
+
 #? 4) .discard()
 print('\n4) .discard()')
 # - igual que remove
@@ -86,6 +90,7 @@ print( colores, type(colores), len(colores) )
 # => eliminando algo que no existe
 colores.discard('verde') # no pasa nada!
 print( colores, type(colores), len(colores) )
+
 
 
 #? 5) .pop()
@@ -121,6 +126,7 @@ print( heroes, type(heroes), len(heroes) )
 #heroes.pop() #! KeyError: 'pop from an empty set'
 
 
+
 #? 6) .clear()
 print('\n6) .clear()')
 # - para dejar el set en blanco
@@ -130,6 +136,7 @@ print( colores, type(colores), len(colores) )
 
 colores.clear()
 print( colores, type(colores), len(colores) )
+
 
 
 #? 7) del
@@ -147,7 +154,7 @@ del colores
 
 
 # ---------------------------------
-#* métodos para eliminar en sets
+# * Métodos para ELIMINAR en sets
 # .remove()
 # .discard()
 # .pop()
@@ -157,7 +164,7 @@ del colores
 
 
 # ---------------------------
-#* OPERACIONES DE CONJUNTOS
+# * OPERACIONES DE CONJUNTOS
 # ---------------------------
 
 #? 8) .union()
@@ -187,6 +194,7 @@ print( union_1 == union_3 ) # False
 # - no importa el desorden
 
 
+
 #? 9) .intersection()
 print('\n9) .intersection()')
 # - para crear un nuevo set
@@ -209,6 +217,7 @@ print( intersection_2, len(intersection_2) )
 print( intersection_3, len(intersection_3) )
 
 
+
 #? 10) .intersection_update()
 print('\n10) .intersection_update()')
 # - El mismo funcionamiento que .intersection()
@@ -227,10 +236,11 @@ print( set_1, len(set_1) )
 print( set_2, len(set_2) )
 
 
+
 #? 11) .difference()
 print('\n10) .difference()')
 
-#*  set_1.difference(set_2)
+# *   set_1.difference(set_2)
 # - devuelve un nuevo set
 # - con los elementos que existen en set_1
 # - pero no en set_2
@@ -249,6 +259,7 @@ print( set_1, len(set_1) )
 print( set_2, len(set_2) )
 
 
+
 #? 12) .difference_update()
 print('\n12) .difference_update()')
 # - funciona igual que .difference()
@@ -265,6 +276,7 @@ set_1.difference_update(set_2)
 print()
 print( set_1, len(set_1) )
 print( set_2, len(set_2) )
+
 
 
 #? 13) .symmetric_difference()
@@ -292,6 +304,7 @@ symmetric_diff = set_1.symmetric_difference(set_2)
 print( symmetric_diff, len(symmetric_diff) )
 
 
+
 #? 14) .symmetric_difference_update()
 print('\n14) .symmetric_difference_update()')
 # - funciona igual que .symmetric_difference
@@ -310,8 +323,16 @@ print( set_1, len(set_1) )
 print( set_2, len(set_2) )
 
 
+# -----------------------------------------
+# * NOTA
+# - todos los que tienen el "_update"
+# - modifican el set donde se les aplica
+# -----------------------------------------
+
+
+
 # -------------------------------
-#* MÉTODOS BOOLEANOS
+# * MÉTODOS BOOLEANOS
 # - devuelven True o False
 # - dependiendo del método
 # - y lo que queramos averiguar
@@ -345,6 +366,7 @@ print( heroes_2.isdisjoint(heroes_1) )
 print( heroes_1.isdisjoint(heroes_3) )
 
 
+
 #? 16) .issubset()
 print('\n16) .issubset()')
 # - Retorna True
@@ -357,6 +379,7 @@ numeros_3 = {1,2,3,10}
 print( numeros_1.issubset(numeros_2) )
 print( numeros_2.issubset(numeros_1) ) # True
 print( numeros_3.issubset(numeros_1) )
+
 
 
 #? 17) .issuperset()

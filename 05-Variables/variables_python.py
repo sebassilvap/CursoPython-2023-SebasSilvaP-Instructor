@@ -6,24 +6,28 @@
 # =================================
 
 
-# 1) Crear una variable en python
+#? 1) Crear una variable en python
+print('1) Crear una variable en python')
+print()
+
 x = 'Hola Mundo'
 # Aquí suceden dos cosas:
 # 1) x              => declarando una variable con el nombre 'x'
 # 2) = 'Hola Mundo' => asignamos un valor a la variable de nombre 'x'
-print()
-print('------------------- (1) -------------------')
+
 
 print('Hola Mundo')
 print(x)
 
 
-# 2) Por el momento conocemos 2 tipos de datos
+
+#? 2) Por el momento conocemos 2 tipos de datos
+print('2) Por el momento conocemos 2 tipos de datos')
+print()
 #   - cadena de texto (string - str)
 #   - número entero   (int)
-#! La siguiente lección hablamos en profundidad de los tipos de datos en Python
-print()
-print('------------------- (2) -------------------')
+#!  La siguiente lección hablamos en profundidad de los tipos de datos en Python
+
 
 # nombre_variable = valor
 
@@ -41,15 +45,17 @@ print(es_estudiante)
 print(es_profesor)
 
 
-# 3) Normas de buena escritura en Python
+
+#? 3) Normas de buena escritura en Python
+print('3) Normas de buena escritura en Python')
+print()
 # - nombre de la variable en minúsculas
 # - cuando son varias palabras => separadas con guión bajo => _
 # - se utiliza mayúculas para constantes
 # - no iniciar con mayúsculas => eso se hace en clases (tema que veremos luego)
 # - recomendaciones para buena práctica de programación en python
 # - su nombre tiene que ser descriptivo de lo que es la variable
-print()
-print('------------------- (3) -------------------')
+
 
 Saludo = 'hola' # X
 letra = 'A' # OK
@@ -65,10 +71,11 @@ print(numero_de_telefono)
 
 
 
-# 4) Impresión de variables en print
-# 1 FORMA ==> pasarlos como PARÁMETROS de la función print / separados con una coma
+#? 4) Impresión de variables en print
+print('4) Impresión de variables en print')
 print()
-print('------------------- (4) -------------------')
+
+# 1 FORMA ==> pasarlos como PARÁMETROS de la función print / separados con una coma
 
 # el espacio después de la coma, no afecta la impresión en consola
 print(nombre, apellido, edad, es_estudiante, es_profesor)
@@ -84,10 +91,13 @@ print(nombre,'A', apellido, 2222, edad, es_estudiante,'XYZ', es_profesor)
 #! hay otras maneras pero veremos luego !
 
 
-# 5) Ejercicio Básico - print() de variables y valores 
-# Podemos utilizar lo aprendido para imprimir información de manera más estructurada
+
+#? 5) Ejercicio Básico - print() de variables y valores 
+print('5) Ejercicio Básico - print() de variables y valores ')
 print()
-print('------------------- (5) -------------------')
+
+# Podemos utilizar lo aprendido para imprimir información de manera más estructurada
+
 
 print()
 print('*********************************')
@@ -98,7 +108,9 @@ print('¿Es profesor? :', es_profesor)
 print('*********************************')
 
 
-# 6) DATO CURIOSO
+#? 6) DATO CURIOSO
+print('6) DATO CURIOSO')
+print()
 # - en otros lenguajes de programación para declarar una variable
 # - se debe especificar el tipo de dato
 # - en python no

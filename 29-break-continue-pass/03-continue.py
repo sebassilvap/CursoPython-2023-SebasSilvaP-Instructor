@@ -16,6 +16,7 @@
 
 # ===============================================================
 
+
 #? 1) continue => para saltar iteración en bucle
 print('\n1) continue => para saltar iteración en bucle')
 # - como vimos igual podemos utilizar pass

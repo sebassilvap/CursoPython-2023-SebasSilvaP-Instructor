@@ -10,8 +10,12 @@
 letra_1 = 'c'
 letra_2 = 'x'
 
+
 #? 1) Comparación entre 2 letras distintas
-print('Comparación entre',letra_1,'y',letra_2,':')
+print('\n1) Comparación entre 2 letras distintas')
+
+print('\nComparación entre',letra_1,'y',letra_2,':')
+
 print( letra_1 , '>' , letra_2 , ' : ' , letra_1 > letra_2 ) # c > x  :  False
 print( letra_1 , '>=' , letra_2 , ' : ' , letra_1 >= letra_2 ) # c >= x  :  False
 print( letra_1 , '<' , letra_2 , ' : ' , letra_1 < letra_2 ) # c < x  :  True
@@ -20,8 +24,12 @@ print( letra_1 , '==' , letra_2 , ' : ' , letra_1 == letra_2 ) # c == x  :  Fals
 print( letra_1 , '!=' , letra_2 , ' : ' , letra_1 != letra_2 ) # c != x  :  True
 
 
+
 #? 2) Comparación entre 2 letras iguales
+print('\n2) Comparación entre 2 letras iguales')
+
 print('\nComparación entre',letra_1,'y',letra_1,':')
+
 print( letra_1 , '>' , letra_1 , ' : ' , letra_1 > letra_1 ) # c > c  :  False
 print( letra_1 , '>=' , letra_1 , ' : ' , letra_1 >= letra_1 ) # c >= c  :  True
 print( letra_1 , '<' , letra_1 , ' : ' , letra_1 < letra_1 ) # c < c  :  False
@@ -30,7 +38,9 @@ print( letra_1 , '==' , letra_1 , ' : ' , letra_1 == letra_1 ) # c == c  :  True
 print( letra_1 , '!=' , letra_1 , ' : ' , letra_1 != letra_1 ) # c != c  :  False
 
 
+
 #? 3) Comparación entre 2 cadenas
+print('\n3) Comparación entre 2 cadenas')
 
 c_1 = 'AA'
 c_2 = 'AAA'
@@ -68,7 +78,9 @@ print( c_1 , '==' , c_2 , ' : ' , c_1 == c_2 ) # Z == AAAAAAAAA  :  False
 print( c_1 , '!=' , c_2 , ' : ' , c_1 != c_2 ) # Z != AAAAAAAAA  :  True
 
 
+
 #? 4) Comparación entre 2 símbolos
+print('\n4) Comparación entre 2 símbolos')
 
 c_1 = '@'
 c_2 = '%'
@@ -81,7 +93,10 @@ print( c_1 , '<=' , c_2 , ' : ' , c_1 <= c_2 )  #   @ <= %  :  False
 print( c_1 , '==' , c_2 , ' : ' , c_1 == c_2 )  #   @ == %  :  False
 print( c_1 , '!=' , c_2 , ' : ' , c_1 != c_2 )  #   @ != %  :  True
 
+
+# -----------------------------------------------------------------
 # => ¿Por qué?
 # código hexadecimal de caracteres: https://www.ascii-code.com/
 # @ ===> DEC = 64
 # % ===> DEC = 37
+# -----------------------------------------------------------------

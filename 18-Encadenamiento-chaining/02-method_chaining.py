@@ -9,6 +9,7 @@
 # - aplicados sobre una variable
 # =========================================================
 
+
 #? 1) Sin usar method-chaining
 print('\n1) Sin usar method-chaining\n')
 
@@ -19,6 +20,8 @@ nombre = ' '.join(nombre) # 3
 print('Nombre con Formato: ' , nombre) # 4
 
 # => 4 líneas de código en total
+
+
 
 #? 2) CON method chaining
 print('\n2) CON method chaining\n')

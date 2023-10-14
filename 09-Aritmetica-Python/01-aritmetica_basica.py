@@ -22,13 +22,14 @@
 # =================================================================================================
 
 
-# 1) Aritmética Directa
+#? 1) Aritmética Directa
+print('1) Aritmética Directa')
+print()
 # - lo siguiente NO ES ERROR
 # - pero no lo podemos visualizar
 # - a menos que lo pongamos en un print
 #!  pero esto se puede ver en otros editores como Jupyter Notebook sin necesidad de print()
-print('')
-print('----------------- 1) Aritmética Directa -----------------')
+
 
 5 + 5
 5 * 8
@@ -53,14 +54,16 @@ print(  2 ** 3 , type(2 ** 3) )
 print(  10 % 3 , type(10 % 3) )
 
 
-# 2) Reglas Matemáticas
+
+#? 2) Reglas Matemáticas
+print('2) Reglas Matemáticas')
+print()
 # - Python respeta la JERARQUÍA de las operaciones matemáticas
 
 # - primero *, / LUEGO +,-
 # - primero ** LUEGO *,/ LUEGO +,-
 # - primero () LUEGO ** LUEGO *,/ LUEGO +,-
-print('')
-print('----------------- 2) Reglas Matemáticas -----------------')
+
 
 #? EJ 1:
 print( 3 * 3 + 2 ) 

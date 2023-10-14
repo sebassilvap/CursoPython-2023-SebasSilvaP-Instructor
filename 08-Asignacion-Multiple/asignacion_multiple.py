@@ -5,7 +5,11 @@
 # - Para crear varias variables en una línea de código
 # =======================================================
 
-# 1) Asignación normal aprendida
+
+#? 1) Asignación normal aprendida
+print('1) Asignación normal aprendida')
+print()
+
 nombre = 'Sebastián'
 apellido = "Silva"
 edad = 36
@@ -16,13 +20,20 @@ nota = 75.8
 print(nombre, apellido, edad, es_estudiante, es_profesor, nota)
 
 
-# 2) Reasignación de valores utilizando técnica de asignación múltiple
-#?  variable_1, variable_2, ... = valor_1, valor_2, ...
+
+#? 2) Reasignación de valores utilizando técnica de asignación múltiple
+print('2) Reasignación de valores utilizando técnica de asignación múltiple')
+print()
+#*  variable_1, variable_2, ... = valor_1, valor_2, ...
 
 nombre, apellido, edad, es_estudiante, es_profesor, nota = 'Diego', 'Costa', 15, True, False, 95.5
 print(nombre, apellido, edad, es_estudiante, es_profesor, nota)
 
-# 3) Reasignación de varias variables a valor único
+
+
+#? 3) Reasignación de varias variables a valor único
+print('3) Reasignación de varias variables a valor único')
+print()
 
 # => manera clásica
 edad_juan = 15

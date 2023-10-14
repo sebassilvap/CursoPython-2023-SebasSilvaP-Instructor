@@ -7,6 +7,7 @@
 # https://www.w3schools.com/python/python_lists_methods.asp
 # ==============================================================
 
+
 #? 1) .index()
 print('\n1) .index()')
 # - devuelve el índice de una búsqueda
@@ -24,11 +25,12 @@ print( lista.index(200) )
 #! ValueError: 'SEBAS' is not in list
 
 
+
 #? 2) .append()
 print('\n2) .append()')
 # - para agregar elemento
 # - al FINAL de la lista
-#* modifica la lista original
+# * modifica la lista original
 
 lista = ['x', 'y', 'z', 100, 200, 300, True]
 
@@ -39,12 +41,13 @@ lista.append('sebas')
 print(lista, len(lista))
 
 
+
 #? 3) .insert()
 print('\n3) .insert()')
 # - para insertar un elemento en una posición exacta
 # - recibe 2 argumentos
 # .insert(index, elemento)
-#* modifica la lista original
+# * modifica la lista original
 
 lista = ['x', 'y', 'z', 100, 200, 300, True]
 #(+)      0    1    2    3    4    5    6
@@ -73,12 +76,13 @@ lista.insert(-10,'python')
 print(lista, len(lista)) # => no da error pero inserta al inicio
 
 
+
 #? 4) del lista[indice]
 print('\n4) del lista[indice]')
 # - eliminar un elemento de la lista
 # - proporcionando la lista y el índice
 # - el índice entre corchetes
-#* modifica la lista original
+# * modifica la lista original
 
 lista = ['x', 'y', 'z', 100, 200, 300, True]
 #(+)      0    1    2    3    4    5    6
@@ -96,17 +100,20 @@ print(lista, len(lista))
 #! IndexError: list assignment index out of range
 
 
+
 #? 5) .pop()
 print('\n5) .pop()')
 # - por defecto: elimina último elemento de la lista
 # - también se puede especificar el índice del elemento a eliminar
 # - devuelve el elemento eliminado
-#* modifica la lista original
+# * modifica la lista original
 
-# -------------
+
+# ------------------------
 # por defecto
-print('\npor defecto')
-# -------------
+print('\npor defecto\n')
+# ------------------------
+
 lista = ['x', 'y', 'z', 100, 200, 300, True]
 #         0    1    2     3   4    5    6
 
@@ -116,21 +123,25 @@ lista.pop()
 
 print(lista, len(lista))
 
-# ---------------------
+
+# -------------------------------
 # especificando index
-print('\nespecificando index')
-# ---------------------
+print('\nespecificando index\n')
+# -------------------------------
+
 lista = ['x', 'y', 'z', 100, 200, 300, True]
 #         0    1    2     3   4    5    6
+
 print(lista, len(lista))
 
 lista.pop(4)
 print(lista, len(lista))
 
-# -------------------------------
+
+# ----------------------------------------
 # retorna el elemento eliminado
-print('\nretorna el elemento eliminado')
-# -------------------------------
+print('\nretorna el elemento eliminado\n')
+# ----------------------------------------
 
 lista = ['x', 'y', 'z', 100, 200, 300, 'AAA', 'BBB']
 #         0    1    2     3   4    5    6      7
@@ -156,11 +167,12 @@ lista = ['x', 'y', 'z', 100, 200, 300, 'AAA', 'BBB']
 #! IndexError: pop index out of range
 
 
+
 #? 6) .remove()
 print('\n6) .remove()')
 # - elimina un elemento de la lista
 # - el elemento lo pasamos como parámetro
-#* modifica la lista original
+# * modifica la lista original
 
 lista = ['x', 'y', 'z', 100, 200, 300, 'AAA', 'BBB']
 #         0    1    2     3   4    5    6      7
@@ -174,7 +186,7 @@ print(lista, len(lista))
 #! ValueError: list.remove(x): x not in list
 
 # ------------------------------------------
-#* RECORDAR
+# * RECORDAR
 # 3 maneras de eliminar elementos en listas:
 
 # 1)  del lista[indice]
@@ -183,10 +195,11 @@ print(lista, len(lista))
 # ------------------------------------------
 
 
+
 #? 7) .sort()
 # - para ordenar listas
 # - recibe 2 argumentos: reverse & key
-#* modifica la lista original
+# * modifica la lista original
 
 lista_1 = ['Sebas', 'Ximena', 'Daniel', 'Mauro', 'Beto']
 lista_2 = [10, -80, 0, 6.5, -8.9, -20, 15]
@@ -195,8 +208,10 @@ print(lista_1)
 print(lista_2)
 
 
+# ----------------------------------
 # 7.1) sort por defecto
-print('\n7.1) sort por defecto')
+print('\n7.1) sort por defecto\n')
+# ----------------------------------
 # - por defecto: orden ascendente
 # - (A-Z) & menor a mayor
 
@@ -207,8 +222,10 @@ print(lista_1)
 print(lista_2)
 
 
+# ---------------------------------------
 # 7.2) sort con reverse True
-print('\n7.2) sort con reverse True')
+print('\n7.2) sort con reverse True\n')
+# ---------------------------------------
 # - orden descendente
 # - (Z-A) & mayor a menor
 
@@ -220,6 +237,7 @@ print(lista_2)
 
 # - reverse=False => por defecto
 # - o también no se lo pone
+
 print()
 
 lista_1.sort(reverse=False)
@@ -228,8 +246,11 @@ lista_2.sort(reverse=False)
 print(lista_1)
 print(lista_2)
 
+
+# -----------------------------
 # 7.3) sort con key
-print('\n7.3) sort con key')
+print('\n7.3) sort con key\n')
+# -----------------------------
 # - key permite un ordenado especial
 # - en función a una característica de la lista
 
@@ -251,13 +272,17 @@ lista.sort(key=len, reverse=True)
 print(lista)
 
 
+
 #? 8) sorted()
 print('\n8) sorted()')
 # - a diferencia de sort no me afecta la lista original
 # sorted( lista , reverse, key )
 
+
+# -------------------------------------
 # 8.1) sorted() por defecto
-print('\n8.1) sorted() por defecto')
+print('\n8.1) sorted() por defecto\n')
+# -------------------------------------
 # - por defecto: orden ascendente
 # - (A-Z) & menor a mayor
 
@@ -303,8 +328,10 @@ print( lista_1_ordenada )
 print( lista_2_ordenada )
 
 
+# --------------------------------------------
 # 8.2) sorted() con reverse True
-print('\n8.2) sorted() con reverse True')
+print('\n8.2) sorted() con reverse True\n')
+# --------------------------------------------
 # - orden descendente
 # - (Z-A) & mayor a menor
 
@@ -323,8 +350,10 @@ print( lista_1_sorted )
 print( lista_2_sorted )
 
 
+# ----------------------------------
 # 8.3) sorted() con key
-print('\n8.3) sorted() con key')
+print('\n8.3) sorted() con key\n')
+# ----------------------------------
 # - key permite un ordenado especial
 # - en función a una característica de la lista
 
@@ -349,10 +378,12 @@ lista_orden_len = sorted(lista, key=len, reverse=True)
 print(lista_orden_len)
 
 
+
 #? 9) .split()
 print('\n9) .split()')
 # - para dividir un string
 # - en elementos de lista
+
 
 # => por defecto divide tomando en cuenta los espacios
 
@@ -364,6 +395,7 @@ print(lista_palabras, type(lista_palabras), len(lista_palabras))
 
 
 # => podemos especificar el caracter a dividir
+
 print()
 texto_1 = 'python,java,javascript,c++,pascal'
 print(texto_1)
@@ -373,6 +405,7 @@ print()
 texto_2 = 'manzana/banana/pera/durazno*sandia'
 print(texto_2)
 print(texto_2.split('/'))
+
 
 
 #? 10) .join()
@@ -398,6 +431,7 @@ print('***'.join(lista))
 # guardando en una variable
 cadena = caracter.join(lista)
 print(cadena, type(cadena))
+
 
 
 #? 11) .list()
@@ -428,10 +462,11 @@ print( rango, type(rango) )
 print( lista, type(lista) )
 
 
+
 #? 12) .clear()
 print('\n12) .clear()')
 # - deja la lista en blanco
-#* modifica la lista original
+# * modifica la lista original
 
 lista = ['Carlos','Andres','Sebas','Karla']
 print(lista, len(lista))
@@ -441,6 +476,7 @@ print(lista, len(lista))
 
 lista.append('A')
 print(lista, len(lista))
+
 
 
 #? 13) .count()
@@ -454,6 +490,7 @@ print(numeros)
 
 print(numeros.count(1))
 print(numeros.count(2))
+
 
 
 #? 14) .extend()
@@ -493,6 +530,7 @@ lista_2 = [100, 200, 300]
 lista_1 = lista_1 + lista_2
 print('lista_1 =', lista_1)
 print('lista_2 =', lista_2)
+
 
 
 #? 15) .reverse()

@@ -7,6 +7,7 @@
 # - (*) en la siguiente lección veremos la librería math
 # =======================================================================
 
+
 #? 1) round() => lleva un número decimal a su inmediato superior
 print('\n1) round()')
 
@@ -29,6 +30,7 @@ print( num_4 , ' =>' , round(num_4) )
 print( num_5 , ' =>' , round(num_5) )
 
 
+
 #? 2) abs() => valor absoluto de un número
 print('\n2) abs()')
 
@@ -42,6 +44,7 @@ print( num_1 , ' =>' , abs(num_1) )
 print( num_2 , ' =>' , abs(num_2) )
 print( num_3 , ' =>' , abs(num_3) )
 print( num_4 , ' =>' , abs(num_4) )
+
 
 
 #? 3) sum() => devuelve la suma de una lista

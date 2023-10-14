@@ -9,7 +9,9 @@
 # - STEP: salto o pasos
 # =====================================================
 
+
 #? 1) REPASO: Substring con índices positivos
+print('\n1) REPASO: Substring con índices positivos')
 
 cadena = 'superPalabraGrande'
 #(+)      012345678901234567
@@ -25,7 +27,9 @@ print(sub_2)
 print(sub_3)
 
 
+
 #? 2) REPASO: Substring omitiendo índices redundantes
+print('\n2) REPASO: Substring omitiendo índices redundantes')
 
 sub_1 = cadena[:5] # no necesitamos el 0
 sub_2 = cadena[5:12]
@@ -37,7 +41,10 @@ print(sub_2)
 print(sub_3)
 
 
+
 #? 3) Aplicando salto (step) 
+print('\n3) Aplicando salto (step) ')
+
 step_1 = cadena[0:18:1] # step 1 => por default !
 print( 'step_1 =' , step_1 )
 
@@ -52,7 +59,10 @@ step_3 = cadena[ : : 3] # nos saltamos 2 caracteres
 print( 'step_3 =' , step_3 )
 
 
+
 #? 4) Salto Negativo => Revertir un String
+print('\n4) Salto Negativo => Revertir un String')
+
 print( cadena )
 print( cadena[::1] )
 print( cadena[::-1] ) # sin salto => revertir orden
@@ -60,7 +70,10 @@ print( cadena[::-2] ) # salto de 1 caracter => revertir orden
 print( cadena[::-3] ) # salto de 2 caracteres => revertir orden
 
 
+
 #? 5) Ejercicio: string & substring / normal & reverso
+print('\n5) Ejercicio: string & substring / normal & reverso')
+
 cadena = 'superPalabraGrande'
 
 # cadena revertida
@@ -92,6 +105,7 @@ print(sub_3_r)
 # - la formación del substring también va en orden inverso
 # - tenemos varias soluciones a este problema
 
+## --------------------
 ## a) Solución sencilla
 ## --------------------
 sub_1_r = sub_1[::-1]
@@ -104,6 +118,7 @@ print(sub_1_r)
 print(sub_2_r)
 print(sub_3_r)
 
+## ----------------------
 ## b) Solución complicada
 ## ----------------------
 # - la misma regla se aplica

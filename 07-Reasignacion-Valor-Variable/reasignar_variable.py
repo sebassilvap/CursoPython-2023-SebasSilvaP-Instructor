@@ -13,7 +13,11 @@
 # - EJ: TypeScript / PyScript
 # =======================================================================================
 
+
 #? Fases de una variable
+print('Fases de una variable')
+print()
+
 
 # 1) Creación = Declaración + Asignación
 variable = 'hola mundo'
@@ -23,9 +27,11 @@ variable = 'hola mundo'
 
 print(variable, type(variable))
 
+
 # 2) Reasignación de valor a variable con el mismo tipo
 variable = 'otro string'
 print(variable, type(variable))
+
 
 # 3) Reasignación de valor con otro tipo de dato
 variable = 123

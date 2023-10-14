@@ -14,6 +14,8 @@ print( cadena[0].upper() )
 
 #cadena[0] = cadena[0].upper() #! TypeError: str no soporta asignación
 
+
+# ----------------------------------------------------------
 # - la asignación se da al momento que ponemos variable =
 # - ya sea con un método o sobreescribiendo
 # - no podemos hacer esto con strings
@@ -22,6 +24,8 @@ print( cadena[0].upper() )
 # - si bien es cierto
 # - no podemos cambiar un índice
 # - pero podemos reasignar la variable entera
+# ----------------------------------------------------------
+
 
 cadena = 'hola python'
 print(cadena)

@@ -2,6 +2,7 @@
 # Características / Particularidades de las Funciones en Python
 # ================================================================
 
+
 #? 1) Primero se la define luego se la invoca
 print('\n1) Primero se la define luego se la invoca')
 # - en otros lenguajes una función puede definirse en cualquier lado
@@ -10,7 +11,6 @@ print('\n1) Primero se la define luego se la invoca')
 # - este comportamiento se llama "hoisting"
 # - en python TENEMOS que definirla primero
 
-
 #saludar() #! NameError: name 'saludar' is not defined
 
 def saludar():
@@ -18,6 +18,7 @@ def saludar():
 # end def
 
 saludar()
+
 
 
 #? 2) El código que lo define va indentado
@@ -35,6 +36,7 @@ def despedirse():
 print('línea de código 2')
 
 despedirse()
+
 
 
 #? 3) Se la puede redefinir N veces
@@ -58,6 +60,7 @@ def saludar(n):
 saludar('Diego')
 
 
+
 #? 4) El return marca el fin de la función
 print('\n4) El return marca el fin de la función')
 
@@ -77,6 +80,7 @@ print( sumar(8,9) )
 # - poner algo luego del return
 # - no es error
 # - pero nunca se ejecuta
+
 
 
 #? 5) El return puede ser inmediato
@@ -106,6 +110,7 @@ def nombre_edad(x, y):
 # end def
 
 print( nombre_edad('Santi', 40) )
+
 
 
 #? 5) Los parámetros existen solo en las funciones
@@ -147,10 +152,10 @@ resultado = sumar(0.5, 2.3)
 print(resultado)
 
 
+
 #? 6) Los nombres de los parámetros pueden repetirse en varias funciones
 print('\n6) Los nombres de los parámetros pueden repetirse en varias funciones')
-
-# => no existe conflicto en usar el mismo nombre en los PARÁMETROS
+# - no existe conflicto en usar el mismo nombre en los PARÁMETROS
 # - RECORDAR:
 # - estas "variables" existen solo en el espectro de la función
 # - donde se las crea
@@ -173,3 +178,29 @@ print('\nRESULTADOS:')
 print( sumar(10,5) )
 print( restar(20,12) )
 print( duplicar_numero(6) )
+
+
+
+#? 7) pass => para definir una función en blanco y trabajar luego
+print('\n7) pass => para definir una función en blanco y trabajar luego')
+# - Recordemos el pass
+# - lo utilizábamos para definir algo
+# - y trabajar en eso luego
+# - en el if por ejemplo
+
+x = 10
+
+if x < 20:
+    pass
+
+# => de igual manera con las funciones
+
+def suma(a,b):
+    pass
+
+def calcular_algo(a,b,c,d):
+    pass
+
+# => es decir,
+# - es como dejar la firma de la función
+# - dejamos ahí, y volveremos luego

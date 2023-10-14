@@ -3,8 +3,9 @@
 
 # - Python ofrece 2 métodos internos
 # - para trabajar con tuplas
-#*  count()  &  index()
+# *    count()  &  index()
 # =====================================
+
 
 #? 1) .count()
 print('\n1) .count()')
@@ -17,6 +18,7 @@ print( tupla.count(10) )
 print( tupla.count('A') )
 print( tupla.count('10') ) # el tipo es importante
 print( tupla.count('Z') ) # 0 => cuando cuento algo que no existe
+
 
 
 #? 2) .index()

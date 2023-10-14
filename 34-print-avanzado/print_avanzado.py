@@ -10,6 +10,7 @@
 # - con el indicamos como deseamos terminar la línea de impresión
 # ====================================================================
 
+
 #? 1) Recordatorio de las maneras de usar print
 print('\n1) Recordatorio de las maneras de usar print')
 
@@ -20,8 +21,10 @@ es_profesor = True
 es_estudiante = False
 
 
+# ----------------------------------------
 # 1.1) print() con argumentos
-print('\n1.1) print() con argumentos')
+print('\n1.1) print() con argumentos\n')
+# ----------------------------------------
 # - cuando se manda argumentos
 # - no importa el tipo de dato
 
@@ -36,8 +39,10 @@ print(
 )
 
 
+# ------------------------------------------------------
 # 1.2) print() con concatenación y casting
-print('\n1.2) print() con concatenación y casting')
+print('\n1.2) print() con concatenación y casting\n')
+# ------------------------------------------------------
 # - concatenación + casting para formar un solo string
 # - y poder imprimir ese string
 
@@ -55,6 +60,7 @@ print( nombre + '\n' +
 cadena_imprimir = nombre + str(edad) + str(nota_final) + str(es_profesor) + str(es_estudiante)
 
 print( cadena_imprimir )
+
 
 
 #? 2) Parámetro opcional end
@@ -82,6 +88,7 @@ print()
 
 print(cadena_1, end='---')
 print(cadena_2)
+
 
 
 #? 3) Aplicación en bucles

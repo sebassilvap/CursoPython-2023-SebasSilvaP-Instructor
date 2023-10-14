@@ -6,13 +6,14 @@
 # - Transforman al string para un propósito específico
 # =======================================================
 
+
 #? 1) Para cambiar el tipo
 print('\n1) Para cambiar el tipo')
-# .capitalize() => Primera letra con mayúscula
-# .title()      => Primera letra de cada palabra con mayúscula
-# .upper()      => Todo en mayúsculas
-# .lower()      => Todo en minúsculas
-# .swapcase()   => Invierte el case del texto
+#   .capitalize() => Primera letra con mayúscula
+#   .title()      => Primera letra de cada palabra con mayúscula
+#   .upper()      => Todo en mayúsculas
+#   .lower()      => Todo en minúsculas
+#   .swapcase()   => Invierte el case del texto
 
 var_1 = 'Me gusta APRENDER PythoN.'
 
@@ -28,23 +29,26 @@ print(var_1)
 var_1.upper()
 print(var_1)
 
+# -----------------------------------------------------------------------
 #! NOTA IMPORTANTE
 # - veremos más luego que algunos métodos MODIFICAN la variable original
 # - en este caso los métodos de string no lo hacen
 # - para ver su funcionamiento tenemos:
 # - que hacer un print
 # - guardarlos en otra variable
+# -----------------------------------------------------------------------
 
 var_1_upper = var_1.upper()
 print(var_1)
 print(var_1_upper)
 
 
+
 #? 2) Para justificación del texto
 print('\n2) Para justificación del texto')
-# .center(x) => Justificación al centro en x espacios
-# .ljust(x) => Justificación a la izquierda en x espacios
-# .rjust(x) => Justificación a la derecha en x espacios
+#   .center(x) => Justificación al centro en x espacios
+#   .ljust(x) => Justificación a la izquierda en x espacios
+#   .rjust(x) => Justificación a la derecha en x espacios
 
 var_1 = 'python'
 #        012345
@@ -70,6 +74,7 @@ print( 'rjust_10 =', rjust_10 , len(rjust_10) )
 print( 'rjust_20 =', rjust_20 , len(rjust_20) )
 
 
+
 #? 3) Conteo de caracteres repetidos
 print('\n3) Conteo de caracteres repetidos')
 # .count(substring, start, end) => búsqueda de izquierda a derecha con inicio y fin opcionales
@@ -84,6 +89,8 @@ print(var_1.count('nunca')) # 2
 print(var_1.count('nunca', 2)) # 1
 print(var_1.count('nunca', 2 , 10))
 print(var_1.count('nunca', 2 , 18))
+
+
 
 #? 4) Búsqueda por caracter => Retorno de índice CON ERROR
 print('\n4) Búsqueda por caracter => Retorno de índice CON ERROR')
@@ -119,10 +126,12 @@ print(var_1.rindex('X')) # 30
 print(var_1.rindex('X',0,5)) # 0
 print(var_1.rindex('X',5,20)) # 12
 
+
+
 #? 5) Búsqueda por caracter => Retorno de índice SIN ERROR
 print('\n5) Búsqueda por caracter => Retorno de índice SIN ERROR')
-# find(substring, start, end)
-# rfind(substring, start, end)
+#   .find(substring, start, end)
+#   .rfind(substring, start, end)
 
 # => básicamente lo mismo que index
 # => pero no devuelve error si no encuentra
@@ -139,6 +148,7 @@ print(var_1.find('liz')) # 9
 print(var_1.find('lit')) # -1
 print(var_1.find('n')) # 2
 
+
 # .rfind()
 
 var_1 = 'Xuna palabraX que se forma conX'
@@ -150,12 +160,15 @@ print(var_1.rfind('X',0,20)) # 12
 print(var_1.rfind('X',2,12)) # -1
 
 
+
 #? 6) Eliminar espaciados y caracteres
 print('\n6) Eliminar espaciados y caracteres')
-# .strip()  => eliminación a ambos lados
-# .lstrip() => eliminación a la izquierda
-# .rstrip() => eliminación a la derecha
+#   .strip()  => eliminación a ambos lados
+#   .lstrip() => eliminación a la izquierda
+#   .rstrip() => eliminación a la derecha
+
 # => por defecto sin argumento elimina todo tipo de espaciado
+
 
 # .strip()
 
@@ -178,6 +191,7 @@ print( var_3.strip() )
 print( var_4.strip('*') )
 print( var_5.strip() )
 
+
 # .lstrip() y .rstrip()
 var_1 = '**********hola****'
 print('\nUtilización de .lstrip() & .rstrip()')
@@ -185,6 +199,7 @@ print( 'var_1 =', var_1 )
 print( "var_1.strip('*') =", var_1.strip('*') ) # a ambos lados
 print( "var_1.lstrip('*') =", var_1.lstrip('*') ) # a la izquierda
 print( "var_1.rstrip('*') =", var_1.rstrip('*') ) # a la derecha
+
 
 
 #? 7) .join()
@@ -205,10 +220,11 @@ print( cadena_3.join(cadena_principal) )
 print( cadena_4.join(cadena_principal) )
 
 
+
 #? 8) .split()
 print('\n8) .split()')
 # - transforma una cadena en una lista
-#! TEMA Listas: Ya lo veremos a profundidad luego
+# ! TEMA Listas: Ya lo veremos a profundidad luego
 # - básicamente una lista es una colección de datos
 # - cuando no se da el parámetro por defecto separa por espacios
 
@@ -230,6 +246,8 @@ print( split_1 , type(split_1) , len(split_1) )
 split_1 = var_1.split('*')
 
 print( split_1 , type(split_1) , len(split_1) ) # 1 elemento de lista
+
+
 
 #? 9) .splitlines()
 print('\n9) .splitlines()')
@@ -258,8 +276,8 @@ print(poema)
 print(poema.splitlines())
 
 
-#? 9) .expandtabs()
-print('\n9) .expandtabs()')
+#? 10) .expandtabs()
+print('\n10) .expandtabs()')
 # - como su nombre lo indica
 # - sirve para incrementar el tamaño de un tab
 # - dentro de un string
@@ -272,11 +290,13 @@ print( var_1.expandtabs(2) ) # tab = 2 espacios
 print( var_1.expandtabs(4) ) # tab = 4 espacios
 
 
+
 #? 10) .replace()
 print('\n10) .replace()')
 #! UNO DE LOS MÁS IMPORTANTES
 # - para reemplazar un caracter o subcadena
 # - dentro de una cadena
+
 
 # => reemplazando un caracter
 var_1 = 'pXlabrX secrXtX'

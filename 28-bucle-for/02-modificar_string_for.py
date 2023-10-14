@@ -6,8 +6,9 @@
 # - y vamos a solventar un problema que se presenta en el camino
 # =================================================================
 
+
 #? 1) Modificar string con bucle for
-print('\n3) Modificar string con bucle for\n')
+print('\n1) Modificar string con bucle for\n')
 
 nombre = 'python'
 nombre_modificado = ''

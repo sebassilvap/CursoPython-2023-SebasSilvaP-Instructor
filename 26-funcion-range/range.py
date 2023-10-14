@@ -2,7 +2,7 @@
 # Función Interna range
 
 # - para crear una secuencia de números
-#* range(start, end, step)
+#*        range(start, end, step)
 
 # - start: parámetro opcional, 0 por default, establece inicio (inclusivo)
 # - end: parámetro obligatorio, establece final (exclusivo)
@@ -54,6 +54,7 @@ print( 'rango_50_100_10 = ', rango_50_100_10, '|', type(rango_50_100_10) )
 # - el casting puede darse no solo como vimos sino entre algunos tipos de datos
 
 
+
 #? 2) Casting de range a list => list()
 print('\n2) Casting de range a list => list()\n')
 
@@ -66,6 +67,7 @@ lista_50_100_10 = list( rango_50_100_10 )
 print( 'lista_0_9 = ', lista_0_9)
 print( 'lista_20_3 = ', lista_20_3)
 print( 'lista_50_100_10 = ', lista_50_100_10)
+
 
 
 #? 3) Su uso fundamental => bucle for
@@ -93,6 +95,7 @@ for i in range(0,10):
 # - ocupa memoria al momento que lo utilizamos en bucle
 # - o cuando le hacemos casting a una lista
 # - pero como definición no ocupa espacio
+
 
 
 #? 4) Indexing, Slicing & len en range

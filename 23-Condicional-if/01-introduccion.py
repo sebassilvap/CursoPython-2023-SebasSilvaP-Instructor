@@ -12,6 +12,7 @@
 #! - se ejecuta una instrucción cuando la condición es True
 # ==========================================================
 
+
 #? 1) Ejemplo básico => Análisis de una nota
 print('\n1) Ejemplo básico => Análisis de una nota\n')
 # - 20 es sobresaliente
@@ -30,6 +31,7 @@ elif nota >= 12 and nota <= 14:
 else:
     print('El estudiante PIERDE el AÑO!')
 # end if
+
 
 
 #? 2) Explicación de los elementos del bloque if
@@ -59,6 +61,7 @@ else: #! => si nada de arriba se cumple, para cualquier otro caso:
     - caso por default
     - caso por defecto
 ''')
+
 
 
 #? 3) El if / elif se ejecuta cuando la condición es True
@@ -97,6 +100,7 @@ elif(False):
 else:
     print('Bloque 4: hola - else')
     
+
 
 #? 4) Orden de ejecución del condicional if
 print('\n4) Orden de ejecución del condicional if\n')
@@ -148,6 +152,7 @@ elif numero < 3:
 - recordar al final que el computador solo interpreta las intenciones del programador
 - lo anteriormente expuesto no es un error pero muy mala práctica y uso del if
 '''
+
 
 
 #? 5) Inicio y Fin de un Condicional if

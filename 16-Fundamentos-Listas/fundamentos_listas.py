@@ -9,6 +9,7 @@
 # - pueden almacenar varios tipos de datos
 # ==========================================================
 
+
 #? 1) Creación de una lista
 print('\n1) Creación de una lista')
 
@@ -21,7 +22,9 @@ print( numeros, type(numeros) )
 print( info_persona, type(info_persona) )
 
 
+
 #? 2) Index y Slicing
+print('\n2) Index y Slicing')
 # - al igual que los string
 # - son elementos iterables / de secuencia
 # - podemos acceder a sus elementos por medio de los índices
@@ -29,8 +32,11 @@ print( info_persona, type(info_persona) )
 # - RECORDAR: que el índice inicia en 0
 # - RECORDAR: el último elemento tiene índice -1
 
+
+# -------------------------------
 # => aplicando index
 print('\n2.1) Index en Listas')
+# -------------------------------
 
 print( letras[0] , numeros[-1] )
 
@@ -46,8 +52,11 @@ print( edad )
 print( es_estudiante )
 print( nota_final )
 
+
+# -----------------------------------
 # => aplicando slicing
-print('\n2.1) Slicing en Listas')
+print('\n2.2) Slicing en Listas')
+# -----------------------------------
 # RECORDAR: [start , end , step]
 # - start => inclusivo
 # - end   => exclusivo
@@ -67,8 +76,10 @@ print( letras_lista[::2] )
 print( letras_string[::2] )
 
 
+
 #? 3) Concatenación en Listas
 print('\n3) Concatenación en Listas')
+
 numeros_1 = [1,2,3]
 numeros_2 = [10,20,30]
 
@@ -102,6 +113,7 @@ print( lista , len(lista) )
 # ['X', 'Y', 10, 20, True, False, -100.5] 7
 
 
+
 #? 5) Las listas son MUTABLES
 print('\n5) Las listas son MUTABLES')
 # - RECORDAR: string (cadenas de texto) => INMUTABLES
@@ -128,6 +140,7 @@ lista[0] = 'AAAAA'
 print(lista) # ['AAAAA', 'y', 'z']
 
 
+
 #? 6) Podemos definirlas en varias líneas de código
 print('\n6) Podemos definirlas en varias líneas de código')
 
@@ -144,6 +157,7 @@ lista_estudiantes = [
 print(lista_estudiantes)
 
 
+
 #? 7) .append() => añadir un elemento al final de la lista
 print('\n7) .append() => añadir un elemento al final de la lista')
 # - uno de los elementos más importantes de las listas
@@ -154,6 +168,7 @@ lista_estudiantes.append('Santiago')
 print( lista_estudiantes , len(lista_estudiantes) )
 lista_estudiantes.append('Carla')
 print( lista_estudiantes , len(lista_estudiantes) )
+
 
 
 #? 8) Reasignación con Slicing
@@ -183,6 +198,7 @@ print( lista , len(lista) )
 
 lista[2] = [100,200,300]
 print( lista , len(lista) ) # se añade la lista como un elemento => listas anidadas
+
 
 
 #? 9) Listas Anidadas

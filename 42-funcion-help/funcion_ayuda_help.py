@@ -15,8 +15,10 @@
 
 #help(int)
 
-#? Inbcluso como funciona el mismo help
+
+#? Incluso como funciona el mismo help
 help(help)
+
 
 #? Navegar con help para ciertos temas
 # help() + TOPICS => CMD

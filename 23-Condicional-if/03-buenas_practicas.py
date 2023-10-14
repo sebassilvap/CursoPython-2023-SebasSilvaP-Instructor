@@ -9,7 +9,7 @@
 
 
 #? 1) Utilizando varios if - CASO ACEPTABLE
-print('\n1) Utilizando varios if - CASO ACEPTABLE\n')
+print('\n1) Utilizando varios if - CASO ACEPTABLE')
 
 #! buena/mala práctica depende
 # - en lo posible siempre usar elif para unir varias condiciones
@@ -55,7 +55,7 @@ else:
 
 
 #? 2) Utilizando varios if - CASO ERRÓNEO
-print('\n2) Utilizando varios if - CASO ERRÓNEO\n')
+print('\n2) Utilizando varios if - CASO ERRÓNEO')
 
 poder = 45
 

@@ -8,6 +8,7 @@
 # - Modificando pero en la copia de la lista
 # ==============================================================
 
+
 #? 1) Dirección de la memoria de variables básicas
 print('\n1) Dirección de la memoria de variables básicas')
 
@@ -21,7 +22,8 @@ num_1 = 5
 # => ¿cambia num_2?
 print(num_1 , num_2)
 
-# ¿POR QUÉ?
+
+#   ¿POR QUÉ?
 # - al hacer num_2 = num_1
 # - asignamos el mismo valor y el mismo espacio en la memoria para ambas variables
 # - pero al reasignar num_1
@@ -29,6 +31,7 @@ print(num_1 , num_2)
 # - estamos creando nuevamente la variable
 # - tiene un nuevo espacio en la memoria
 # - num_1 y num_2 son independientes ahora
+
 
 
 #? 2) Dirección de la memoria en listas
@@ -53,6 +56,7 @@ print(lista_1 , '|' , lista_2)
 # - sin embargo, en las listas
 # - nosotros podemos modificar la lista
 # - sin necesidad de volver a reasignar
+
 
 
 #? 3) Modificando la lista
@@ -110,6 +114,3 @@ lista_1.append('A')
 lista_2.append('Z')
 
 print(lista_1, '|', lista_2) # lista_1 y lista_2 son INDEPENDIENTES
-
-
-

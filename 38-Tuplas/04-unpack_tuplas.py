@@ -6,6 +6,7 @@
 # - esto es posible hacerlo en tuplas
 # =============================================
 
+
 #? 1) Desempaquetando Valores de Tupla
 print('\n1) Desempaquetando Valores de Tupla')
 
@@ -45,10 +46,14 @@ print( heroe_dc, type(heroe_dc) )
 print( heroes_marvel, type(heroes_marvel) )
 
 
+
 #? 3) Operador Asterisco * en otra posición
 print('\n3) Operador Asterisco * en otra posición')
 
+# ------------------------
+# EJEMPLO 1
 print('\nEJEMPLO 1:\n')
+# ------------------------
 
 heroes = (
     'goku',
@@ -65,7 +70,10 @@ print( heroes_marvel, type(heroes_marvel) )
 print( heroe_dc, type(heroe_dc) )
 
 
+# ------------------------
+# EJEMPLO 2
 print('\nEJEMPLO 2:\n')
+# ------------------------
 
 # => lo siguiente ya sería un error en Python
 #!SyntaxError: multiple starred expressions in assignment

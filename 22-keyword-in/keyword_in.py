@@ -10,10 +10,11 @@
 # ========================================================================
 
 #? 1) "in" + string
-print('\n1) "in" + string\n')
+print('\n1) "in" + string')
 
 cadena_1 = 'python'
 
+print()
 print('m' in cadena_1)  # False
 print('o' in cadena_1)  # True
 print('P' in cadena_1)  # False
@@ -22,10 +23,11 @@ print('N' in cadena_1)  # False
 
 
 #? 2) "in" + lista
-print('\n2) "in" + lista\n')
+print('\n2) "in" + lista')
 
 lista = [100,200,True,-8.5,'nombre']
 
+print()
 print('100' in lista) # False
 print('n' in lista) # False
 print(1 in lista) # True => porque True es también 1
@@ -48,7 +50,8 @@ print(True in lista) # False
 
 
 #? 3) SALTO EN EL TIEMPO
-#! Bucle for con in
+print('\n3) SALTO EN EL TIEMPO')
+# ! Bucle for con in
 # - ya veremos a profundidad el tema bucles
 # - pero el uso más común de for es para recorrer un elemento iterable
 # - elementos iterables por el momento: listas, strings

@@ -11,12 +11,14 @@
 lista = [100, 200, 300, 'A', 'B', 'C', True, -10.5, 50.5, None]
 # ----------------------------------------------------------------
 
+
 #? 1) Recorrido con for
 print('\n1) Recorrido con for')
 
 for elemento in lista:
     print(elemento)
 # end for
+
 
 
 #? 2) for + contador externo
@@ -30,12 +32,14 @@ for elemento in lista:
 # end for
 
 
+
 #? 3) for + enumerate
 print('\n3) for + enumerate')
 
 for index, elemento in enumerate(lista):
     print('Elemento Index #', index, '=', elemento)
 # end for
+
 
 
 #? 4) Recorrido con while
