@@ -64,3 +64,18 @@ print( promedio_5_valores(1,2,3,4,5) )
 
 
 #? 3) Lambda con argumentos de tipo String
+print('\n3) Lambda con argumentos de tipo String')
+
+# => Función Normal
+def saludar(nombre, edad):
+    print('Hola', nombre, 'tienes', edad, 'años!')
+# end def
+
+saludar('Carlos', 18)
+
+
+# => Función Lambda
+
+saludo = lambda nombre, edad : 'Hola ' + nombre + ' tienes ' + str(edad) + ' años!!'
+
+print( saludo('Taty', 17) )

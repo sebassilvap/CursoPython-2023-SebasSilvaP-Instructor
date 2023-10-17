@@ -23,14 +23,14 @@ num_1 = 5
 print(num_1 , num_2)
 
 
-#   ¿POR QUÉ?
-# - al hacer num_2 = num_1
-# - asignamos el mismo valor y el mismo espacio en la memoria para ambas variables
-# - pero al reasignar num_1
-# num_1 = 5
-# - estamos creando nuevamente la variable
-# - tiene un nuevo espacio en la memoria
-# - num_1 y num_2 son independientes ahora
+#    ¿POR QUÉ?
+# -  al hacer num_2 = num_1
+# -  asignamos el mismo valor y el mismo espacio en la memoria para ambas variables
+# -  pero al reasignar num_1
+# *  num_1 = 5
+# -  estamos creando nuevamente la variable
+# -  tiene un nuevo espacio en la memoria
+# -  num_1 y num_2 son independientes ahora
 
 
 

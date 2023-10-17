@@ -69,7 +69,7 @@ else:
 
 print(clima)
 
-# => RECORDAR:
+# => RECORDAR / Traducción:
 # - una buena práctica es pasar una expresión condicional a las palabras propias
 # - en este caso sería:
 '''
@@ -83,12 +83,15 @@ Caso contrario, tenemos un "Mal Clima..."
 # => operador ternario
 # ----------------------
 
+clima = 'Buen Clima' if not (temperatura > 30 or temperatura < 10) else 'Mal Clima...'
+print(clima)
 
 #? 3) Ejemplo no Recomendado => Operador Ternario Complejo
 print('\n3) Ejemplo no Recomendado => Operador Ternario Complejo')
 # - cuando la escritura del operador ternario se vuelve compleja
 # - es preferible utilizar el condicional if
 # - RECORDAR, el código no debe ser complejo de leer o entender
+# ! NO RECOMENDADO
 
 opcion = 2
 comando = ''
