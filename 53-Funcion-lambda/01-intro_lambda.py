@@ -15,14 +15,19 @@
 #? 1) Función Normal VS. Función Lambda
 print('\n1) Función Normal VS. Función Lambda')
 
+# -------------------
 # => Función Normal
+# -------------------
 def sumar_normal(a,b):
     return a + b
 # end def
 
 print( sumar_normal(5,3) )
 
+
+# -------------------
 # => Función Lambda
+# -------------------
 sumar_lambda = lambda x,y : x + y
 
 # - 1 sola línea
@@ -66,16 +71,56 @@ print( promedio_5_valores(1,2,3,4,5) )
 #? 3) Lambda con argumentos de tipo String
 print('\n3) Lambda con argumentos de tipo String')
 
+# ------------------
 # => Función Normal
+# ------------------
 def saludar(nombre, edad):
-    print('Hola', nombre, 'tienes', edad, 'años!')
+    #print('Hola', nombre, 'tienes', edad, 'años!') #! RECORDAR: String-Format
+    print('Hola {} tienes {} años!'.format(nombre, edad))
 # end def
 
+# TEST:
 saludar('Carlos', 18)
 
 
+# ------------------
 # => Función Lambda
+# ------------------
 
-saludo = lambda nombre, edad : 'Hola ' + nombre + ' tienes ' + str(edad) + ' años!!'
+#saludo = lambda nombre, edad : 'Hola ' + nombre + ' tienes ' + str(edad) + ' años!!' #! RECORDAR: String-Format
 
+saludo = lambda nombre, edad : f'Hola {nombre} tienes {edad} años!'
+
+# TEST:
 print( saludo('Taty', 17) )
+
+
+
+#? 4) Lambda con Operador Ternario
+print('\n4) Lambda con Operador Ternario')
+
+# -------------------------------
+# => Recordar Operador Ternario
+# -------------------------------
+
+velocidad_max = 50
+velocidad = 40
+
+# Retornando un String
+check_velocidad = 'Límite Excedido' if velocidad > velocidad_max else 'Menor al Lmímite'
+print(check_velocidad)
+
+# Retornando un Boolean
+check_velocidad = True if velocidad > velocidad_max else False
+print(check_velocidad)
+
+
+# ------------------
+# => Función Lambda
+# ------------------
+
+check_vel = lambda vel, vel_max : True if vel > vel_max else False
+
+print( check_vel(20, velocidad_max) ) # False
+print( check_vel(40, velocidad_max) ) # False
+print( check_vel(60, velocidad_max) ) # True

@@ -56,3 +56,17 @@ print(lista_1 , sum(lista_1))
 # => existe un problema con esta función:
 lista_2 = [0.9999999, 1, 2, 3]
 print(sum(lista_2))
+
+
+#? 4) max() => valor máximo de una lista de números
+print('\n4) max() => valor máximo de una lista de números')
+
+lista_1 = [50, 10.2, 20, 3.5, 100.5, 80.9]
+print( lista_1, '|', max(lista_1) )
+
+
+#? 5) min() => valor mínimo de una lista de números
+print('\n4) min() => valor máximo de una lista de números')
+
+lista_1 = [50, 10.2, 20, 3.5, 100.5, 80.9]
+print( lista_1, '|', min(lista_1) )
